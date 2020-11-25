@@ -1,0 +1,112 @@
+{
+	"Afreeca_Freecs": {
+		"Kiin": "origin",
+		"Spirit": "leave",
+		"Dread": "origin",
+		"Fly": "origin",
+		"Mystic": "leave",
+		"Ben": "leave",
+		"Jelly": "leave",
+		"Iloveoov": "leave"
+	},
+	"DAMWON_Gaming": {
+		"Nuguri": "leave",
+		"Canyon": "origin",
+		"ShowMaker": "origin",
+		"Ghost": "origin",
+		"BeryL": "origin",
+		"Zefa": "leave",
+		"KkOma": "join"
+	},
+	"DRX": {
+		"Doran": "leave",
+		"Pyosik": "origin",
+		"Chovy": "leave",
+		"Deft": "leave",
+		"Keria": "leave",
+		"CvMax": "origin"
+	},
+	"Gen_2e-G": {
+		"Rascal": "origin",
+		"Clid": "origin",
+		"Bdd": "origin",
+		"Ruler": "origin",
+		"Life": "origin",
+		"Kellin": "leave",
+		"ODin": "origin"
+	},
+	"Hanwha_Life_Esports": {
+		"CuVee": "leave",
+		"DuDu": "origin",
+		"CaD": "origin",
+		"Haru": "leave",
+		"Yeongjae": "leave",
+		"Mireu": "leave",
+		"Lava": "leave",
+		"Viper": "leave",
+		"Lehends": "leave",
+		"Kezman": "origin",
+		"Morgan": "join",
+		"Arthur": "join",
+		"Winter": "join",
+		"Chovy": "join",
+		"Deft": "join"
+	},
+	"KT_Rolster": {
+		"Smeb": "leave",
+		"SoHwan": "leave",
+		"BonO": "leave",
+		"Malrang": "leave",
+		"Kuro": "leave",
+		"Ucal": "origin",
+		"Aiming": "leave",
+		"TusiN": "leave",
+		"Hirai": "origin"
+	},
+	"SANDBOX_Gaming": {
+		"Summit": "origin",
+		"OnFleek": "origin",
+		"Dove": "leave",
+		"FATE": "origin",
+		"Route": "origin",
+		"GorillA": "leave",
+		"Kabbie": "origin",
+		"YamatoCannon": "leave",
+		"Croco": "join",
+		"Micro": "join"
+	},
+	"SeolHaeOne_Prince": {
+		"Ikssu": "leave",
+		"Flawless": "leave",
+		"Kuma": "leave",
+		"Mickey": "leave",
+		"Keine": "leave",
+		"HyBriD": "leave",
+		"Trigger": "leave",
+		"Secret": "leave",
+		"Mia": "leave",
+		"Sickness": "leave"
+	},
+	"T1": {
+		"Canna": "origin",
+		"Cuzz": "origin",
+		"Ellim": "origin",
+		"Clozer": "origin",
+		"Faker": "origin",
+		"Teddy": "origin",
+		"Gumayusi": "origin",
+		"Effort": "origin",
+		"Kuri": "leave",
+		"Kim": "leave",
+		"Keria": "join",
+		"Daeny": "join"
+	},
+	"Team_Dynamics": {
+		"Rich": "origin",
+		"Beyond": "leave",
+		"Kuzan": "leave",
+		"Deokdam": "origin",
+		"GuGer": "leave",
+		"SBs": "origin"
+	}
+}

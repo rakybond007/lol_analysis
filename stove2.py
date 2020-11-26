@@ -61,7 +61,7 @@ def crawl_roster():
 
 def crawl_progamer_status(pro_id):
     web_address = "https://lol.gamepedia.com/"
-    seasons = ["2018", "2019", "2020"]
+    seasons = ["2017", "2018", "2019", "2020"]
     pro_status_dict[pro_id] = {}
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--headless')
@@ -73,98 +73,43 @@ def crawl_progamer_status(pro_id):
         driver.get(address)
         source = requests.get(address).text
         table = driver.find_elements_by_class_name("wikitable")
-        print(len(table))
+        if not table:
+            continue
         for season_idx in range(len(table)):
             table_heads = table[season_idx].find_element_by_tag_name("thead").find_elements_by_tag_name("tr")
-            print(len(table_heads))
-            season_name = table_heads[0].find_elements_by_tag_name("a")
-            print(len(season_name))
-            print(season_name[1].get_attribute("title"))
-            exit(1)
+            table_body = table[season_idx].find_element_by_tag_name("tbody")
+            #get season name
+            season_name_tag = table_heads[0].find_elements_by_tag_name("a")
+            season_name = season_name_tag[1].get_attribute("title")
+            pro_status_dict[pro_id][season_name] = {}
+
+            #get table header infos
+            Total_game_num = int(table_heads[1].find_element_by_tag_name("th").text.split(' ')[0])
+            Total_champion_num = int(table_heads[1].find_element_by_tag_name("th").text.split(' ')[5])
+            col_names_elements = table_heads[2].find_elements_by_tag_name("th")
+            col_names = []
+            for col_names_element in col_names_elements:
+                col_names.append(col_names_element.text)
+            
+            #crawl table body
+            body_elements_by_champion = table_body.find_elements_by_tag_name("tr")
+            for champion_info in body_elements_by_champion:
+                each_infos = champion_info.find_elements_by_tag_name("td")
+                champion_name = each_infos[0].text
+                pro_status_dict[pro_id][season_name][champion_name] = {}
+                for info_idx in range(len(each_infos)):
+                    pro_status_dict[pro_id][season_name][champion_name][col_names[info_idx]] = each_infos[info_idx].text
             #pro_status_dict[pro_id][season] = {}
     
-    try:
-        chat_opened = driver.find_element_by_class_name("Chat.Chat--opened")
-        if chat_opened != None:
-            print("chat is opened, need to close")
-            chatgg_click_bar = driver.find_element_by_class_name("Chat__header")
-            time.sleep(1)
-            chatgg_click_bar.click()
-            print("Chat.gg click")
-        else:
-            print("Chat is not opened")
-    except:
-        print("Chat is not opened keep go on to each season")
-    season_bar = driver.find_elements_by_class_name("Selectable.TeamStats__selectable")
-    #exit(1)
-    for i in range(len(season_bar)):
-        print(season_bar[i].text)
-        #print("Hello")
-        pro_status_dict[pro_id][season_bar[i].text] = {}
-        time.sleep(2)
-        try:
-            season_bar[i].click()
-        except:
-            #채팅창 켜져 있을 경우 클릭 못하니까 닫기
-            chat = driver.find_element_by_class_name("Chat")
-            if chat != None:
-                print(chat.text)
-                try:
-                    chat_opened = driver.find_element_by_class_name("Chat.Chat--opened")
-                    if chat_opened != None:
-                        print("chat is opened, need to close")
-                        chatgg_click_bar = driver.find_element_by_class_name("Chat__header")
-                        time.sleep(1)
-                        chatgg_click_bar.click()
-                        print("Chat.gg click")
-                    else:
-                        print("Chat is not opened")
-                except:
-                    print("Chat is not opened")
-            time.sleep(2)
-            #한번 더 시도 -> 쵸비 Worlds 2019 에서 자꾸 시즌이 아닌 다른거 클릭된다고 오류남
-            try:
-                chat_opened = driver.find_element_by_class_name("Chat.Chat--opened")
-                if chat_opened != None:
-                    print("chat is opened, need to close")
-                    chatgg_click_bar = driver.find_element_by_class_name("Chat__header")
-                    time.sleep(1)
-                    chatgg_click_bar.click()
-                    print("Chat.gg click")
-                else:
-                    print("Chat is not opened")
-            except:
-                print("Chat is not opened")
-            #마지막으로 한번 더 해보고 안되는건 패스 -> 쵸비 worls 2019
-            try:
-                season_bar[i].click()
-            except:
-                continue
-        time.sleep(2)
-        champion_infos_table = driver.find_element_by_class_name("StatsTable.table.table-sm.table-hover.Gilroy")
-        champion_infos = champion_infos_table.find_element_by_tag_name("tbody")
-        col_names = champion_infos_table.find_element_by_tag_name("thead").find_element_by_tag_name("tr").find_elements_by_tag_name("th")
-        #for col_name in col_names:
-            #print(col_name.text)
-        champion_info = champion_infos.find_elements_by_tag_name("tr")
-        #print(len(champion_info))
-        for info in champion_info:
-            each_info = info.find_elements_by_tag_name("td")
-            champion_name = each_info[0].text
-            pro_status_dict[pro_id][season_bar[i].text][champion_name] = {}
-            for each_info_idx in range(len(each_info)):
-                #print(each_info_real.text)
-                pro_status_dict[pro_id][season_bar[i].text][champion_name][col_names[each_info_idx].text] = each_info[each_info_idx].text
-
 #crawl_progamer_status("Canyon")
 #exit(1)
 crawl_roster()
 print(sorted(progamer_set))
-crawl_progamer_status("Chovy")
+#crawl_progamer_status("Chovy")
 for pro in sorted(progamer_set):
     print(pro)
     crawl_progamer_status(pro)
-with open('pro_status.json', 'w', encoding='utf-8-sig') as pro_status_file:
+with open('pro_status2.json', 'w', encoding='utf-8-sig') as pro_status_file:
     json.dump(pro_status_dict, pro_status_file, indent="\t", ensure_ascii=False)
 print(roster_dict)
 with open('roster.json', 'w', encoding='utf-8') as roster_file:

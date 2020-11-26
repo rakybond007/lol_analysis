@@ -60,15 +60,29 @@ def crawl_roster():
                     roster_dict[season][country][team_name][progamer_id] = "join"
 
 def crawl_progamer_status(pro_id):
-    global bar_down
+    web_address = "https://lol.gamepedia.com/"
+    seasons = ["2018", "2019", "2020"]
     pro_status_dict[pro_id] = {}
     chrome_options = webdriver.ChromeOptions()
     chrome_options.add_argument('--headless')
     #chrome_options.add_argument('--no-sandbox')
     #chrome_options.add_argument('--disable-dev-shm-usage')
     driver = webdriver.Chrome(executable_path='/home/hj/lol_analysis/chromedriver', chrome_options=chrome_options)
-    status_url = 'https://qwer.gg/players/' + pro_id + '/'
-    driver.get(status_url)
+    for season in seasons:
+        address = web_address + pro_id + "/Statistics/" +  season
+        driver.get(address)
+        source = requests.get(address).text
+        table = driver.find_elements_by_class_name("wikitable")
+        print(len(table))
+        for season_idx in range(len(table)):
+            table_heads = table[season_idx].find_element_by_tag_name("thead").find_elements_by_tag_name("tr")
+            print(len(table_heads))
+            season_name = table_heads[0].find_elements_by_tag_name("a")
+            print(len(season_name))
+            print(season_name[1].get_attribute("title"))
+            exit(1)
+            #pro_status_dict[pro_id][season] = {}
+    
     try:
         chat_opened = driver.find_element_by_class_name("Chat.Chat--opened")
         if chat_opened != None:
@@ -146,7 +160,7 @@ def crawl_progamer_status(pro_id):
 #exit(1)
 crawl_roster()
 print(sorted(progamer_set))
-#crawl_progamer_status("Canyon")
+crawl_progamer_status("Chovy")
 for pro in sorted(progamer_set):
     print(pro)
     crawl_progamer_status(pro)

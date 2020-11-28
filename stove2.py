@@ -56,7 +56,7 @@ def crawl_roster():
                     else:
                         team_name_post = team_name_post_attrs['data-to-id']
                     #team_name_post = team_name_tr.select("th.rosterswap-current-new")[0].find('a').attrs['data-to-id']
-                    team_name = team_name_prev + ',' + team_name_post
+                    team_name = team_name_prev + ';' + team_name_post
                 table_roster = table_info[roster_start_idx:]
                 '''
                 progamers_all_table = table[i].select("td.rosterswap-current-old")
@@ -70,6 +70,9 @@ def crawl_roster():
                     position_nums.append(int(role.attrs['rowspan']))
                 if not position_nums:
                     position_nums.append(int(table[i].select("tr.rosterswap-current-t.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
+                    #bbq 이상한거 처리
+                    if team_name == "Bbq_Olivers" and season == "2018_Preseason":
+                        position_nums[0] = 1
                     position_nums.append(int(table[i].select("tr.rosterswap-current-j.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
                     position_nums.append(int(table[i].select("tr.rosterswap-current-m.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
                     position_nums.append(int(table[i].select("tr.rosterswap-current-a.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
@@ -107,8 +110,14 @@ def crawl_roster():
                     else:
                         if each_player.select("td.rosterswap-current-old.rosterswap-current-leave"):
                             roster_dict[season][country][team_name][position_names[position_idx]][progamer_id] = "leave"
+                            progamer_id_attrs_two = each_player.select('a')
+                            join_gamer_attrs = progamer_id_attrs_two[1].attrs
+                            if not 'data-to-id' in join_gamer_attrs:
+                                join_progamer_id = join_gamer_attrs['title']
+                            else:
+                                join_progamer_id = join_gamer_attrs['data-to-id']
+                            roster_dict[season][country][team_name][position_names[position_idx]][join_progamer_id] = "join"
                         else:
-                            
                             roster_dict[season][country][team_name][position_names[position_idx]][progamer_id] = "join"
                     line_per_num += 1
 

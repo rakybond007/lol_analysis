@@ -25,7 +25,8 @@
 			},
 			"DAMWON_Gaming": {
 				"Top": {
-					"Nuguri": "leave"
+					"Nuguri": "leave",
+					"Khan": "join"
 				},
 				"Jungle": {
 					"Canyon": "origin"
@@ -40,25 +41,30 @@
 					"BeryL": "origin"
 				},
 				"Head_Coach": {
-					"Zefa": "leave"
+					"Zefa": "leave",
+					"KkOma": "join"
 				}
 			},
 			"DRX": {
 				"Top": {
 					"Doran": "leave",
+					"Kingen": "join",
 					"Destroy": "join"
 				},
 				"Jungle": {
 					"Pyosik": "origin"
 				},
 				"Mid": {
-					"Chovy": "leave"
+					"Chovy": "leave",
+					"SOLCA": "join"
 				},
 				"Bot": {
-					"Deft": "leave"
+					"Deft": "leave",
+					"BAO__28-Jeong_Hyeon_2d-woo_29-": "join"
 				},
 				"Support": {
-					"Keria": "leave"
+					"Keria": "leave",
+					"Rebeca": "join"
 				},
 				"Head_Coach": {
 					"CvMax": "origin"
@@ -88,19 +94,24 @@
 			"Hanwha_Life_Esports": {
 				"Top": {
 					"CuVee": "leave",
+					"Morgan": "join",
 					"DuDu": "origin"
 				},
 				"Jungle": {
 					"CaD": "origin",
 					"Haru": "leave",
-					"Yeongjae": "leave"
+					"Winter__28-Kim_Yo_2d-han_29-": "join",
+					"Yeongjae": "leave",
+					"Arthur__28-Park_Mi_2d-reu_29-": "join"
 				},
 				"Mid": {
 					"Mireu": "leave",
+					"Chovy": "join",
 					"Lava": "leave"
 				},
 				"Bot": {
-					"Viper": "leave"
+					"Viper": "leave",
+					"Deft": "join"
 				},
 				"Support": {
 					"Lehends": "leave"
@@ -112,6 +123,7 @@
 			"KT_Rolster": {
 				"Top": {
 					"Smeb": "leave",
+					"Doran__28-Choi_Hyeon_2d-joon_29-": "join",
 					"SoHwan": "leave"
 				},
 				"Jungle": {
@@ -152,7 +164,8 @@
 					"Kabbie": "origin"
 				},
 				"Head_Coach": {
-					"YamatoCannon": "leave"
+					"YamatoCannon": "leave",
+					"Micro__28-Kim_Mok_2d-kyoung_29-": "join"
 				}
 			},
 			"SeolHaeOne_Prince": {
@@ -198,10 +211,12 @@
 				},
 				"Support": {
 					"Effort": "origin",
-					"Kuri": "leave"
+					"Kuri": "leave",
+					"Keria": "join"
 				},
 				"Head_Coach": {
-					"Kim": "leave"
+					"Kim": "leave",
+					"Daeny": "join"
 				}
 			},
 			"Team_Dynamics": {
@@ -253,7 +268,7 @@
 					"Iloveoov": "origin"
 				}
 			},
-			"APK Prince,SeolHaeOne Prince": {
+			"APK Prince;SeolHaeOne Prince": {
 				"Top": {
 					"Ikssu": "origin"
 				},
@@ -299,7 +314,7 @@
 					"Zefa": "origin"
 				}
 			},
-			"DragonX,DRX": {
+			"DragonX;DRX": {
 				"Top": {
 					"Doran (Choi Hyeon-joon)": "origin"
 				},
@@ -353,6 +368,7 @@
 				},
 				"Mid": {
 					"Tempt": "leave",
+					"Mireu": "join",
 					"Lava": "origin"
 				},
 				"Bot": {
@@ -413,7 +429,8 @@
 					"Joker (Cho Jae-eup)": "join"
 				},
 				"Head_Coach": {
-					"Laden": "leave"
+					"Laden": "leave",
+					"YamatoCannon": "join"
 				}
 			},
 			"T1": {
@@ -472,17 +489,21 @@
 					"Spirit": "join"
 				},
 				"Mid": {
-					"Ucal": "leave"
+					"Ucal": "leave",
+					"Fly__28-Song_Yong_2d-jun_29-": "join"
 				},
 				"Bot": {
-					"Aiming": "leave"
+					"Aiming": "leave",
+					"Mystic": "join"
 				},
 				"Support": {
 					"Senan": "leave",
+					"Ben": "join",
 					"Jelly": "join"
 				},
 				"Head_Coach": {
-					"NoFe": "leave"
+					"NoFe": "leave",
+					"Iloveoov": "join"
 				}
 			},
 			"SeolHaeOne_Prince": {
@@ -492,7 +513,8 @@
 				},
 				"Jungle": {
 					"Kuma": "origin",
-					"KaKAO": "leave"
+					"KaKAO": "leave",
+					"Flawless": "join"
 				},
 				"Mid": {
 					"HaeSeong": "origin",
@@ -534,38 +556,46 @@
 					"Micro": "origin"
 				}
 			},
-			"Kingzone_DragonX,DRX": {
+			"Kingzone_DragonX;DRX": {
 				"Top": {
-					"Rascal": "leave"
+					"Rascal": "leave",
+					"Doran__28-Choi_Hyeon_2d-joon_29-": "join"
 				},
 				"Jungle": {
-					"Cuzz": "leave"
+					"Cuzz": "leave",
+					"Pyosik": "join"
 				},
 				"Mid": {
 					"Naehyun": "leave",
+					"SOLCA": "join",
 					"Chovy": "join"
 				},
 				"Bot": {
 					"Deft": "origin"
 				},
 				"Support": {
-					"TusiN": "leave"
+					"TusiN": "leave",
+					"Keria": "join"
 				},
 				"Head_Coach": {
-					"Hirai": "leave"
+					"Hirai": "leave",
+					"CvMax": "join"
 				}
 			},
 			"Gen_2e-G": {
 				"Top": {
 					"CuVee": "leave",
+					"Rascal": "join",
 					"Roach": "leave"
 				},
 				"Jungle": {
 					"Peanut": "leave",
+					"Clid": "join",
 					"SeongHwan": "leave"
 				},
 				"Mid": {
 					"Kuzan": "leave",
+					"Bdd": "join",
 					"Fly": "leave",
 					"Rich": "leave"
 				},
@@ -583,20 +613,23 @@
 			"Griffin": {
 				"Top": {
 					"Sword": "origin",
-					"Doran": "leave"
+					"Doran": "leave",
+					"Untara": "join"
 				},
 				"Jungle": {
 					"Tarzan": "origin"
 				},
 				"Mid": {
 					"Chovy": "leave",
+					"Naehyun": "join",
 					"Ucal": "join"
 				},
 				"Bot": {
 					"Viper": "origin"
 				},
 				"Support": {
-					"Lehends": "leave"
+					"Lehends": "leave",
+					"Kabbie": "join"
 				},
 				"Head_Coach": {
 					"Chaos": "origin",
@@ -606,10 +639,12 @@
 			"Hanwha_Life_Esports": {
 				"Top": {
 					"Thal": "leave",
+					"CuVee": "join",
 					"SoHwan": "leave"
 				},
 				"Jungle": {
 					"MooJin": "leave",
+					"Haru": "join",
 					"BonO": "leave"
 				},
 				"Mid": {
@@ -617,42 +652,54 @@
 					"Tempt": "origin"
 				},
 				"Bot": {
-					"Sangyoon": "leave"
+					"Sangyoon": "leave",
+					"Zenit": "join"
 				},
 				"Support": {
 					"Key": "leave",
+					"Lehends": "join",
 					"Vsta": "join"
 				},
 				"Head_Coach": {
-					"OnAir": "leave"
+					"OnAir": "leave",
+					"Kezman": "join"
 				}
 			},
 			"KT_Rolster": {
 				"Top": {
 					"Smeb": "leave",
-					"Kingen": "leave"
+					"SoHwan": "join",
+					"Kingen": "leave",
+					"Ray": "join"
 				},
 				"Jungle": {
 					"UmTi": "leave",
-					"Score": "leave"
+					"Malrang": "join",
+					"Score": "leave",
+					"BonO__28-Kim_Gi_2d-beom_29-": "join"
 				},
 				"Mid": {
-					"Bdd": "leave"
+					"Bdd": "leave",
+					"Kuro": "join"
 				},
 				"Bot": {
-					"PraY": "leave"
+					"PraY": "leave",
+					"Aiming": "join"
 				},
 				"Support": {
-					"SnowFlower": "leave"
+					"SnowFlower": "leave",
+					"TusiN": "join"
 				},
 				"Head_Coach": {
-					"ZanDarC": "leave"
+					"ZanDarC": "leave",
+					"Hirai": "join"
 				}
 			},
 			"SANDBOX_Gaming": {
 				"Top": {
 					"Summit": "origin",
-					"Wizer": "leave"
+					"Wizer": "leave",
+					"Lonely__28-Han_Gyu_2d-joon_29-": "join"
 				},
 				"Jungle": {
 					"OnFleek": "origin",
@@ -664,6 +711,7 @@
 				},
 				"Bot": {
 					"Ghost": "leave",
+					"Leo__28-Han_Gyeo_2d-re_29-": "join",
 					"Route": "join"
 				},
 				"Support": {
@@ -674,14 +722,17 @@
 					"Laden": "origin"
 				}
 			},
-			"SK_Telecom_T1,T1": {
+			"SK_Telecom_T1;T1": {
 				"Top": {
 					"Khan": "leave",
+					"Roach": "join",
 					"Canna": "join"
 				},
 				"Jungle": {
 					"Clid": "leave",
-					"Haru": "leave"
+					"Ellim": "join",
+					"Haru": "leave",
+					"Cuzz": "join"
 				},
 				"Mid": {
 					"Faker": "origin",
@@ -693,10 +744,12 @@
 				},
 				"Support": {
 					"Mata": "leave",
+					"Kuri": "join",
 					"Effort": "origin"
 				},
 				"Head_Coach": {
-					"KkOma": "leave"
+					"KkOma": "leave",
+					"Kim__28-Kim_Jeong_2d-soo_29-": "join"
 				}
 			}
 		}
@@ -924,22 +977,28 @@
 			"Afreeca_Freecs": {
 				"Top": {
 					"Kiin": "origin",
-					"Summit": "leave"
+					"Summit": "leave",
+					"Hoon__28-Lee_Jang_2d-hoon_29-": "join"
 				},
 				"Jungle": {
 					"Spirit": "origin",
-					"Mowgli": "leave"
+					"Mowgli": "leave",
+					"Dread__28-Lee_Jin_2d-hyeok_29-": "join"
 				},
 				"Mid": {
 					"Kuro": "leave",
-					"Ruby": "leave"
+					"Ucal": "join",
+					"Ruby": "leave",
+					"ALL_IN": "join"
 				},
 				"Bot": {
 					"Aiming": "origin",
-					"Kramer": "leave"
+					"Kramer": "leave",
+					"SS__28-Seo_Jin_2d-sol_29-": "join"
 				},
 				"Support": {
 					"TusiN": "leave",
+					"Proud": "join",
 					"Jelly": "origin"
 				}
 			},
@@ -966,10 +1025,12 @@
 			"Gen_2e-G": {
 				"Top": {
 					"CuVee": "origin",
-					"Alphamong": "leave"
+					"Alphamong": "leave",
+					"Roach": "join"
 				},
 				"Jungle": {
 					"Ambition": "leave",
+					"Peanut": "join",
 					"Haru": "origin"
 				},
 				"Mid": {
@@ -1006,15 +1067,19 @@
 			"Hanwha_Life_Esports": {
 				"Top": {
 					"Lindarang": "leave",
-					"Hoon": "leave"
+					"SoHwan": "join",
+					"Hoon": "leave",
+					"Thal": "join"
 				},
 				"Jungle": {
 					"SeongHwan": "origin",
-					"Mightybear": "leave"
+					"Mightybear": "leave",
+					"BonO__28-Kim_Gi_2d-beom_29-": "join"
 				},
 				"Mid": {
 					"Lava": "origin",
-					"Kuzan": "leave"
+					"Kuzan": "leave",
+					"Tempt": "join"
 				},
 				"Bot": {
 					"Sangyoon": "origin",
@@ -1028,18 +1093,22 @@
 			"Jin_Air_Green_Wings": {
 				"Top": {
 					"SoHwan": "leave",
+					"Lindarang": "join",
 					"TaNa": "join"
 				},
 				"Jungle": {
 					"UmTi": "leave",
+					"Malrang": "join",
 					"KaKAO": "origin"
 				},
 				"Mid": {
 					"Yaharong": "origin",
-					"Justice": "leave"
+					"Justice": "leave",
+					"CheonGo": "join"
 				},
 				"Bot": {
 					"Teddy": "leave",
+					"Stitch": "join",
 					"Route": "join"
 				},
 				"Support": {
@@ -1058,13 +1127,16 @@
 				},
 				"Mid": {
 					"Bdd": "leave",
+					"PawN": "join",
 					"Naehyun": "join"
 				},
 				"Bot": {
-					"PraY": "leave"
+					"PraY": "leave",
+					"Deft": "join"
 				},
 				"Support": {
-					"GorillA": "leave"
+					"GorillA": "leave",
+					"TusiN": "join"
 				}
 			},
 			"KT_Rolster": {
@@ -1074,46 +1146,57 @@
 				},
 				"Jungle": {
 					"Score": "origin",
-					"Rush": "leave"
+					"Rush": "leave",
+					"UmTi": "join"
 				},
 				"Mid": {
 					"Ucal": "leave",
+					"Bdd": "join",
 					"PawN": "origin"
 				},
 				"Bot": {
 					"Deft": "leave",
+					"Gango": "join",
 					"Zenit": "join"
 				},
 				"Support": {
 					"Mata": "leave",
+					"SnowFlower": "join",
 					"Mia": "origin"
 				}
 			},
 			"SK_Telecom_T1": {
 				"Top": {
 					"Thal": "origin",
-					"Untara": "leave"
+					"Untara": "leave",
+					"Crazy__28-Kim_Jae_2d-hee_29-": "join"
 				},
 				"Jungle": {
 					"Blank": "leave",
-					"Blossom": "leave"
+					"Haru": "join",
+					"Blossom": "leave",
+					"Clid": "join"
 				},
 				"Mid": {
 					"Faker": "origin",
-					"Pirean": "leave"
+					"Pirean": "leave",
+					"Gori": "join"
 				},
 				"Bot": {
 					"Bang": "leave",
+					"Teddy": "join",
 					"Leo": "origin"
 				},
 				"Support": {
 					"Wolf": "leave",
+					"Mata": "join",
 					"Effort": "origin"
 				}
 			},
-			"Team_BattleComics,SANDBOX_Gaming": {
+			"Team_BattleComics;SANDBOX_Gaming": {
 				"Top": {
 					"SoaR": "leave",
+					"Wizer": "join",
 					"Summit": "join"
 				},
 				"Jungle": {
@@ -1178,7 +1261,7 @@
 					"IgNar": "origin"
 				}
 			},
-			"KSV_eSports,Gen_2e-G": {
+			"KSV_eSports;Gen_2e-G": {
 				"Top": {
 					"CuVee": "origin",
 					"Alphamong": "join"
@@ -1219,7 +1302,7 @@
 					"Newt": "origin"
 				}
 			},
-			"ROX_Tigers,Hanwha_Life_Esports": {
+			"ROX_Tigers;Hanwha_Life_Esports": {
 				"Top": {
 					"Lindarang": "origin",
 					"Hoon": "join"
@@ -1257,7 +1340,8 @@
 					"Teddy": "origin"
 				},
 				"Support": {
-					"Wraith": "leave"
+					"Wraith": "leave",
+					"Nova__28-Park_Chan_2d-ho_29-": "join"
 				}
 			},
 			"Kingzone_DragonX": {
@@ -1346,6 +1430,7 @@
 			"Afreeca_Freecs": {
 				"Top": {
 					"MaRin": "leave",
+					"Summit": "join",
 					"Kiin": "join"
 				},
 				"Jungle": {
@@ -1367,18 +1452,21 @@
 			},
 			"Bbq_Olivers": {
 				"Top": {
-					"Crazy": "origin",
-					"Bless": "origin"
+					"Crazy": "origin"
 				},
 				"Jungle": {
-					"BonO": "origin",
-					"Tempt": "origin"
+					"Bless": "origin",
+					"BonO": "origin"
 				},
 				"Mid": {
-					"Ghost": "origin"
+					"Tempt": "origin"
 				},
 				"Bot": {
-					"Totoro": "leave"
+					"Ghost": "origin"
+				},
+				"Support": {
+					"Totoro": "leave",
+					"IgNar": "join"
 				}
 			},
 			"Jin_Air_Green_Wings": {
@@ -1392,16 +1480,18 @@
 				},
 				"Mid": {
 					"Kuzan": "leave",
+					"Yaharong": "join",
 					"Justice": "join"
 				},
 				"Bot": {
 					"Teddy": "origin"
 				},
 				"Support": {
-					"SnowFlower": "leave"
+					"SnowFlower": "leave",
+					"Wraith": "join"
 				}
 			},
-			"Longzhu_Gaming,Kingzone_DragonX": {
+			"Longzhu_Gaming;Kingzone_DragonX": {
 				"Top": {
 					"Khan": "origin",
 					"Rascal": "origin"
@@ -1426,6 +1516,7 @@
 				},
 				"Jungle": {
 					"Punch": "leave",
+					"Wiz": "join",
 					"Raise": "join"
 				},
 				"Mid": {
@@ -1440,7 +1531,7 @@
 					"GuGer": "origin"
 				}
 			},
-			"Samsung_Galaxy,KSV_eSports": {
+			"Samsung_Galaxy;KSV_eSports": {
 				"Top": {
 					"CuVee": "origin"
 				},
@@ -1521,10 +1612,12 @@
 			"SK_Telecom_T1": {
 				"Top": {
 					"Huni": "leave",
+					"Thal": "join",
 					"Untara": "origin"
 				},
 				"Jungle": {
 					"Peanut": "leave",
+					"Blossom": "join",
 					"Blank": "origin"
 				},
 				"Mid": {

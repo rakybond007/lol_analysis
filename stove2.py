@@ -56,11 +56,11 @@ def crawl_roster():
                 for role in rolenames:
                     position_nums.append(int(role.attrs['rowspan']))
                 if not position_nums:
-                    position_nums.append(table[i].select("tr.rosterswap-current-t.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan'])
-                    position_nums.append(table[i].select("tr.rosterswap-current-j.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan'])
-                    position_nums.append(table[i].select("tr.rosterswap-current-m.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan'])
-                    position_nums.append(table[i].select("tr.rosterswap-current-a.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan'])
-                    position_nums.append(table[i].select("tr.rosterswap-current-s.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan'])
+                    position_nums.append(int(table[i].select("tr.rosterswap-current-t.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
+                    position_nums.append(int(table[i].select("tr.rosterswap-current-j.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
+                    position_nums.append(int(table[i].select("tr.rosterswap-current-m.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
+                    position_nums.append(int(table[i].select("tr.rosterswap-current-a.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
+                    position_nums.append(int(table[i].select("tr.rosterswap-current-s.rosterswap-current-firstline")[0].select("td")[0].attrs['rowspan']))
                 #exit(1)
                 #progamers_join_table = table[i].select("td.rosterswap-current-old.rosterswap-current-join")
                 position_idx = 0

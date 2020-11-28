@@ -2,831 +2,1223 @@
 	"Current": {
 		"Korea": {
 			"Afreeca_Freecs": {
-				"Kiin": "origin",
-				"Spirit": "leave",
-				"Dread": "origin",
-				"Fly": "origin",
-				"Mystic": "leave",
-				"Ben": "leave",
-				"Jelly": "leave",
-				"Iloveoov": "leave"
+				"Top": {
+					"Kiin": "origin"
+				},
+				"Jungle": {
+					"Spirit": "leave",
+					"Dread": "origin"
+				},
+				"Mid": {
+					"Fly": "origin"
+				},
+				"Bot": {
+					"Mystic": "leave"
+				},
+				"Support": {
+					"Ben": "leave",
+					"Jelly": "leave"
+				},
+				"Head_Coach": {
+					"Iloveoov": "leave"
+				}
 			},
 			"DAMWON_Gaming": {
-				"Nuguri": "leave",
-				"Canyon": "origin",
-				"ShowMaker": "origin",
-				"Ghost": "origin",
-				"BeryL": "origin",
-				"Zefa": "leave",
-				"KkOma": "join"
+				"Top": {
+					"Nuguri": "leave"
+				},
+				"Jungle": {
+					"Canyon": "origin"
+				},
+				"Mid": {
+					"ShowMaker": "origin"
+				},
+				"Bot": {
+					"Ghost": "origin"
+				},
+				"Support": {
+					"BeryL": "origin"
+				},
+				"Head_Coach": {
+					"Zefa": "leave"
+				}
 			},
 			"DRX": {
-				"Doran": "leave",
-				"Pyosik": "origin",
-				"Chovy": "leave",
-				"Deft": "leave",
-				"Keria": "leave",
-				"CvMax": "origin"
+				"Top": {
+					"Doran": "leave"
+				},
+				"Jungle": {
+					"Pyosik": "origin"
+				},
+				"Mid": {
+					"Chovy": "leave"
+				},
+				"Bot": {
+					"Deft": "leave"
+				},
+				"Support": {
+					"Keria": "leave"
+				},
+				"Head_Coach": {
+					"CvMax": "origin"
+				}
 			},
 			"Gen_2e-G": {
-				"Rascal": "origin",
-				"Clid": "origin",
-				"Bdd": "origin",
-				"Ruler": "origin",
-				"Life": "origin",
-				"Kellin": "leave",
-				"ODin": "origin"
+				"Top": {
+					"Rascal": "origin"
+				},
+				"Jungle": {
+					"Clid": "origin"
+				},
+				"Mid": {
+					"Bdd": "origin"
+				},
+				"Bot": {
+					"Ruler": "origin"
+				},
+				"Support": {
+					"Life": "origin",
+					"Kellin": "leave"
+				},
+				"Head_Coach": {
+					"ODin": "origin"
+				}
 			},
 			"Hanwha_Life_Esports": {
-				"CuVee": "leave",
-				"DuDu": "origin",
-				"CaD": "origin",
-				"Haru": "leave",
-				"Yeongjae": "leave",
-				"Mireu": "leave",
-				"Lava": "leave",
-				"Viper": "leave",
-				"Lehends": "leave",
-				"Kezman": "origin",
-				"Morgan": "join",
-				"Arthur": "join",
-				"Winter": "join",
-				"Chovy": "join",
-				"Deft": "join"
+				"Top": {
+					"CuVee": "leave",
+					"DuDu": "origin"
+				},
+				"Jungle": {
+					"CaD": "origin",
+					"Haru": "leave",
+					"Yeongjae": "leave"
+				},
+				"Mid": {
+					"Mireu": "leave",
+					"Lava": "leave"
+				},
+				"Bot": {
+					"Viper": "leave"
+				},
+				"Support": {
+					"Lehends": "leave"
+				},
+				"Head_Coach": {
+					"Kezman": "origin"
+				}
 			},
 			"KT_Rolster": {
-				"Smeb": "leave",
-				"SoHwan": "leave",
-				"BonO": "leave",
-				"Malrang": "leave",
-				"Kuro": "leave",
-				"Ucal": "origin",
-				"Aiming": "leave",
-				"TusiN": "leave",
-				"Hirai": "origin"
+				"Top": {
+					"Smeb": "leave",
+					"SoHwan": "leave"
+				},
+				"Jungle": {
+					"BonO": "leave",
+					"Malrang": "leave"
+				},
+				"Mid": {
+					"Kuro": "leave",
+					"Ucal": "origin"
+				},
+				"Bot": {
+					"Aiming": "leave"
+				},
+				"Support": {
+					"TusiN": "leave"
+				},
+				"Head_Coach": {
+					"Hirai": "origin"
+				}
 			},
 			"SANDBOX_Gaming": {
-				"Summit": "origin",
-				"OnFleek": "origin",
-				"Dove": "leave",
-				"FATE": "origin",
-				"Route": "origin",
-				"GorillA": "leave",
-				"Kabbie": "origin",
-				"YamatoCannon": "leave",
-				"Croco": "join",
-				"Micro": "join"
+				"Top": {
+					"Summit": "origin"
+				},
+				"Jungle": {
+					"OnFleek": "origin",
+					"Croco": "origin"
+				},
+				"Mid": {
+					"Dove": "leave",
+					"FATE": "origin"
+				},
+				"Bot": {
+					"Route": "origin"
+				},
+				"Support": {
+					"GorillA": "leave",
+					"Kabbie": "origin"
+				},
+				"Head_Coach": {
+					"YamatoCannon": "leave"
+				}
 			},
 			"SeolHaeOne_Prince": {
-				"Ikssu": "leave",
-				"Flawless": "leave",
-				"Kuma": "leave",
-				"Mickey": "leave",
-				"Keine": "leave",
-				"HyBriD": "leave",
-				"Trigger": "leave",
-				"Secret": "leave",
-				"Mia": "leave",
-				"Sickness": "leave"
+				"Top": {
+					"Ikssu": "leave"
+				},
+				"Jungle": {
+					"Flawless": "leave",
+					"Kuma": "leave"
+				},
+				"Mid": {
+					"Mickey": "leave",
+					"Keine": "leave"
+				},
+				"Bot": {
+					"HyBriD": "leave",
+					"Trigger": "leave"
+				},
+				"Support": {
+					"Secret": "leave",
+					"Mia": "leave"
+				},
+				"Head_Coach": {
+					"Sickness": "leave"
+				}
 			},
 			"T1": {
-				"Canna": "origin",
-				"Cuzz": "origin",
-				"Ellim": "origin",
-				"Clozer": "origin",
-				"Faker": "origin",
-				"Teddy": "origin",
-				"Gumayusi": "origin",
-				"Effort": "origin",
-				"Kuri": "leave",
-				"Kim": "leave",
-				"Keria": "join",
-				"Daeny": "join"
+				"Top": {
+					"Canna": "origin",
+					"Zeus": "origin"
+				},
+				"Jungle": {
+					"Cuzz": "origin",
+					"Ellim": "origin"
+				},
+				"Mid": {
+					"Clozer": "origin",
+					"Faker": "origin"
+				},
+				"Bot": {
+					"Teddy": "origin",
+					"Gumayusi": "origin"
+				},
+				"Support": {
+					"Effort": "origin",
+					"Kuri": "leave"
+				},
+				"Head_Coach": {
+					"Kim": "leave"
+				}
 			},
 			"Team_Dynamics": {
-				"Rich": "origin",
-				"Beyond": "leave",
-				"Kuzan": "leave",
-				"Deokdam": "origin",
-				"GuGer": "leave",
-				"SBs": "origin"
+				"Top": {
+					"Rich": "origin"
+				},
+				"Jungle": {
+					"Beyond": "leave"
+				},
+				"Mid": {
+					"Kuzan": "leave"
+				},
+				"Bot": {
+					"Deokdam": "origin"
+				},
+				"Support": {
+					"GuGer": "leave"
+				},
+				"Head_Coach": {
+					"SBs": "origin"
+				}
 			}
 		}
 	},
 	"2020_Midseason": {
 		"Korea": {
 			"Afreeca_Freecs": {
-				"Kiin": "origin",
-				"Spirit": "origin",
-				"Dread": "origin",
-				"Fly": "origin",
-				"ALL": "origin",
-				"SS": "origin",
-				"Mystic": "origin",
-				"Jelly": "origin",
-				"Ben": "origin",
-				"Iloveoov": "origin",
-				"Hoon": "join"
+				"Top": {
+					"Kiin": "origin",
+					"Hoon": "origin"
+				},
+				"Jungle": {
+					"Spirit": "origin",
+					"Dread": "origin"
+				},
+				"Mid": {
+					"Fly": "origin",
+					"ALL": "origin"
+				},
+				"Bot": {
+					"SS": "origin",
+					"Mystic": "origin"
+				},
+				"Support": {
+					"Jelly": "origin",
+					"Ben": "origin"
+				},
+				"Head_Coach": {
+					"Iloveoov": "origin"
+				}
 			},
-			"Ikssu": {
-				"Flawless": "origin",
-				"Keine": "origin",
-				"Cover": "origin",
-				"HyBriD": "origin",
-				"Trigger": "origin",
-				"Secret": "origin",
-				"Mia": "origin",
-				"Sickness": "origin",
-				"Mickey": "join"
+			"SeolHaeOne_Prince,SeolHaeOne_Prince": {
+				"Top": {
+					"Ikssu": "origin"
+				},
+				"Jungle": {
+					"Flawless": "origin"
+				},
+				"Mid": {
+					"Keine": "origin",
+					"Cover": "origin",
+					"Mickey": "origin"
+				},
+				"Bot": {
+					"HyBriD": "origin",
+					"Trigger": "origin"
+				},
+				"Support": {
+					"Secret": "origin",
+					"Mia": "origin"
+				},
+				"Head_Coach": {
+					"Sickness": "origin"
+				}
 			},
 			"DAMWON_Gaming": {
-				"Nuguri": "origin",
-				"Canyon": "origin",
-				"ShowMaker": "origin",
-				"Nuclear": "origin",
-				"Ghost": "origin",
-				"Hoit": "origin",
-				"BeryL": "origin",
-				"Zefa": "origin"
+				"Top": {
+					"Nuguri": "origin"
+				},
+				"Jungle": {
+					"Canyon": "origin"
+				},
+				"Mid": {
+					"ShowMaker": "origin"
+				},
+				"Bot": {
+					"Nuclear": "origin",
+					"Ghost": "origin"
+				},
+				"Support": {
+					"Hoit": "origin",
+					"BeryL": "origin"
+				},
+				"Head_Coach": {
+					"Zefa": "origin"
+				}
 			},
-			"Doran__28-Choi_Hyeon_2d-joon_29-": {
-				"Pyosik": "origin",
-				"Chovy": "origin",
-				"Quad": "origin",
-				"Deft": "origin",
-				"Keria": "origin",
-				"CvMax": "origin"
+			"DRX,DRX": {
+				"Top": {
+					"Doran": "origin"
+				},
+				"Jungle": {
+					"Pyosik": "origin"
+				},
+				"Mid": {
+					"Chovy": "origin",
+					"SOLCA": "origin"
+				},
+				"Bot": {
+					"Deft": "origin"
+				},
+				"Support": {
+					"Keria": "origin"
+				},
+				"Head_Coach": {
+					"CvMax": "origin"
+				}
 			},
 			"Gen_2e-G": {
-				"Rascal": "origin",
-				"Clid": "origin",
-				"Bdd": "origin",
-				"Ruler": "origin",
-				"Kellin": "origin",
-				"Life": "origin",
-				"Edgar": "leave"
+				"Top": {
+					"Rascal": "origin"
+				},
+				"Jungle": {
+					"Clid": "origin"
+				},
+				"Mid": {
+					"Bdd": "origin"
+				},
+				"Bot": {
+					"Ruler": "origin"
+				},
+				"Support": {
+					"Kellin": "origin",
+					"Life": "origin"
+				},
+				"Head_Coach": {
+					"Edgar": "leave"
+				}
 			},
 			"Hanwha_Life_Esports": {
-				"CuVee": "origin",
-				"Haru": "origin",
-				"Tempt": "leave",
-				"Lava": "origin",
-				"Vsta": "origin",
-				"Zenit": "leave",
-				"Lehends": "origin",
-				"Kezman": "origin",
-				"DuDu": "join",
-				"CaD": "join",
-				"Yeongjae": "join",
-				"Mireu": "join",
-				"Viper": "join"
+				"Top": {
+					"CuVee": "origin",
+					"DuDu": "origin"
+				},
+				"Jungle": {
+					"Haru": "origin",
+					"CaD": "origin",
+					"Yeongjae": "origin"
+				},
+				"Mid": {
+					"Tempt": "leave",
+					"Lava": "origin"
+				},
+				"Bot": {
+					"Vsta": "origin",
+					"Zenit": "leave"
+				},
+				"Support": {
+					"Lehends": "origin",
+					"Vsta": "origin"
+				},
+				"Head_Coach": {
+					"Kezman": "origin"
+				}
 			},
 			"KT_Rolster": {
-				"SoHwan": "origin",
-				"Ray": "origin",
-				"BonO": "origin",
-				"Malrang": "origin",
-				"Kuro": "origin",
-				"Aiming": "origin",
-				"TusiN": "origin",
-				"Hirai": "origin",
-				"Smeb": "join",
-				"Ucal": "join"
+				"Top": {
+					"SoHwan": "origin",
+					"Ray": "origin",
+					"Smeb": "origin"
+				},
+				"Jungle": {
+					"BonO": "origin",
+					"Malrang": "origin"
+				},
+				"Mid": {
+					"Kuro": "origin",
+					"Ucal": "origin"
+				},
+				"Bot": {
+					"Aiming": "origin"
+				},
+				"Support": {
+					"TusiN": "origin"
+				},
+				"Head_Coach": {
+					"Hirai": "origin"
+				}
 			},
 			"SANDBOX_Gaming": {
-				"Summit": "origin",
-				"Lonely": "origin",
-				"OnFleek": "origin",
-				"Punch": "origin",
-				"Dove": "origin",
-				"FATE": "origin",
-				"Leo": "origin",
-				"Route": "origin",
-				"GorillA": "origin",
-				"Joker": "origin",
-				"Laden": "leave",
-				"Kabbie": "join",
-				"YamatoCannon": "join"
+				"Top": {
+					"Summit": "origin",
+					"Lonely": "origin"
+				},
+				"Jungle": {
+					"OnFleek": "origin",
+					"Punch": "origin"
+				},
+				"Mid": {
+					"Dove": "origin",
+					"FATE": "origin"
+				},
+				"Bot": {
+					"Leo": "origin",
+					"Route": "origin"
+				},
+				"Support": {
+					"GorillA": "origin",
+					"Joker": "origin"
+				},
+				"Head_Coach": {
+					"Laden": "leave"
+				}
 			},
 			"T1": {
-				"Roach": "origin",
-				"Canna": "origin",
-				"Cuzz": "origin",
-				"Ellim": "origin",
-				"Faker": "origin",
-				"Teddy": "origin",
-				"Effort": "origin",
-				"Kim": "origin",
-				"Clozer": "join"
+				"Top": {
+					"Roach": "origin",
+					"Canna": "origin"
+				},
+				"Jungle": {
+					"Cuzz": "origin",
+					"Ellim": "origin"
+				},
+				"Mid": {
+					"Faker": "origin",
+					"Clozer": "origin"
+				},
+				"Bot": {
+					"Teddy": "origin"
+				},
+				"Support": {
+					"Effort": "origin"
+				},
+				"Head_Coach": {
+					"Kim": "origin"
+				}
 			},
 			"Team_Dynamics": {
-				"Rich": "origin",
-				"Beyond": "origin",
-				"Kuzan": "origin",
-				"Deokdam": "origin",
-				"GuGer": "origin",
-				"SBs": "origin"
-			},
-			"Hinu": {
-				"ReGank": "leave",
-				"Roi": "leave",
-				"5kid": "origin",
-				"IDK": "leave",
-				"ForBiD": "leave",
-				"Hinu": "leave",
-				"Last": "join",
-				"KronG": "join",
-				"MooJin": "join",
-				"Mask": "join",
-				"Edge": "join",
-				"PluTo": "join"
-			},
-			"Wizer": {
-				"Croco": "origin",
-				"Doil": "leave",
-				"FireRain": "origin",
-				"Jiin": "leave",
-				"Hollow": "leave",
-				"Hena": "origin",
-				"Minit": "origin",
-				"BanBazi": "origin",
-				"Mightybear": "join",
-				"Roi": "join"
-			},
-			"Element_Mystic": {
-				"Slugger": "origin",
-				"GankNam": "origin",
-				"Flare": "origin",
-				"Scarlet": "origin",
-				"Shark": "origin",
-				"Execute": "origin",
-				"Bird": "origin",
-				"Envy": "join",
-				"Karas": "join"
-			},
-			"Griffin": {
-				"Sword": "origin",
-				"Hoya": "origin",
-				"Untara": "leave",
-				"Tarzan": "leave",
-				"Ucal": "leave",
-				"Naehyun": "origin",
-				"Viper": "leave",
-				"Kabbie": "leave",
-				"H": "leave",
-				"Citrus": "join",
-				"Bay": "join",
-				"Wayne": "join",
-				"Yusin": "join"
-			},
-			"Jin_Air_Green_Wings": {
-				"TaNa": "origin",
-				"Seize": "origin",
-				"UmTi": "origin",
-				"Yaharong": "origin",
-				"Light": "origin",
-				"Rumor": "origin",
-				"Senan": "origin",
-				"Signature": "origin"
-			},
-			"OZ_Gaming": {
-				"SoaR": "origin",
-				"BroCColi": "origin",
-				"Juhan": "origin",
-				"Ian": "origin",
-				"Crown": "origin",
-				"Pilot": "origin",
-				"Motive": "origin",
-				"Hell": "origin"
-			},
-			"Thal": {
-				"Lapis": "origin",
-				"KaKAO": "leave",
-				"DanChung": "leave",
-				"Gone": "origin",
-				"Sangyoon": "leave",
-				"Bini": "origin",
-				"Nova": "leave",
-				"Harp": "origin",
-				"Kage": "origin",
-				"Thal": "leave",
-				"Lia": "join"
-			},
-			"Destroy__28-Yoon_Jeong_2d-min_29-": {
-				"Winter": "leave",
-				"Chasy": "origin",
-				"Tank": "leave",
-				"Prince": "origin",
-				"DalKa": "leave",
-				"Zzus": "origin",
-				"Kang": "origin",
-				"Destroy": "leave",
-				"Crush": "join",
-				"Crow": "join"
+				"Top": {
+					"Rich": "origin"
+				},
+				"Jungle": {
+					"Beyond": "origin"
+				},
+				"Mid": {
+					"Kuzan": "origin"
+				},
+				"Bot": {
+					"Deokdam": "origin"
+				},
+				"Support": {
+					"GuGer": "origin"
+				},
+				"Head_Coach": {
+					"SBs": "origin"
+				}
 			}
 		}
 	},
 	"2020_Preseason": {
 		"Korea": {
 			"Afreeca_Freecs": {
-				"Kiin": "origin",
-				"Dread": "origin",
-				"Ucal": "leave",
-				"Aiming": "leave",
-				"Senan": "leave",
-				"NoFe": "leave",
-				"Spirit": "join",
-				"Fly": "join",
-				"Mystic": "join",
-				"Ben": "join",
-				"Jelly": "join",
-				"Iloveoov": "join"
+				"Top": {
+					"Kiin": "origin"
+				},
+				"Jungle": {
+					"Dread": "origin",
+					"Spirit": "origin"
+				},
+				"Mid": {
+					"Ucal": "leave"
+				},
+				"Bot": {
+					"Aiming": "leave"
+				},
+				"Support": {
+					"Senan": "leave",
+					"Jelly": "origin"
+				},
+				"Head_Coach": {
+					"NoFe": "leave"
+				}
 			},
 			"SeolHaeOne_Prince": {
-				"Ikssu": "origin",
-				"Kuma": "origin",
-				"KaKAO": "leave",
-				"HaeSeong": "origin",
-				"Cover": "origin",
-				"Trigger": "origin",
-				"Secret": "origin",
-				"Sickness": "origin",
-				"Alphamong": "join",
-				"Flawless": "join",
-				"Keine": "join",
-				"HyBriD": "join",
-				"Mia": "join"
+				"Top": {
+					"Ikssu": "origin",
+					"Alphamong": "origin"
+				},
+				"Jungle": {
+					"Kuma": "origin",
+					"KaKAO": "leave"
+				},
+				"Mid": {
+					"HaeSeong": "origin",
+					"Cover": "origin",
+					"Keine": "origin"
+				},
+				"Bot": {
+					"Trigger": "origin",
+					"HyBriD": "origin"
+				},
+				"Support": {
+					"Secret": "origin",
+					"Mia": "origin"
+				},
+				"Head_Coach": {
+					"Sickness": "origin"
+				}
 			},
 			"DAMWON_Gaming": {
-				"Nuguri": "origin",
-				"Flame": "origin",
-				"Canyon": "origin",
-				"Punch": "leave",
-				"ShowMaker": "origin",
-				"Nuclear": "origin",
-				"BeryL": "origin",
-				"Hoit": "origin",
-				"Micro": "origin"
+				"Top": {
+					"Nuguri": "origin",
+					"Flame": "origin"
+				},
+				"Jungle": {
+					"Canyon": "origin",
+					"Punch": "leave"
+				},
+				"Mid": {
+					"ShowMaker": "origin"
+				},
+				"Bot": {
+					"Nuclear": "origin"
+				},
+				"Support": {
+					"BeryL": "origin",
+					"Hoit": "origin"
+				},
+				"Head_Coach": {
+					"Micro": "origin"
+				}
 			},
-			"Rascal": {
-				"Cuzz": "leave",
-				"Naehyun": "leave",
-				"Deft": "origin",
-				"TusiN": "leave",
-				"Hirai": "leave",
-				"Rascal": "leave",
-				"Doran": "join",
-				"Pyosik": "join",
-				"Quad": "join",
-				"Chovy": "join",
-				"Keria": "join",
-				"CvMax": "join"
+			"Kingzone_DragonX,DRX": {
+				"Top": {
+					"Rascal": "leave"
+				},
+				"Jungle": {
+					"Cuzz": "leave"
+				},
+				"Mid": {
+					"Naehyun": "leave",
+					"Chovy": "origin"
+				},
+				"Bot": {
+					"Deft": "origin"
+				},
+				"Support": {
+					"TusiN": "leave"
+				},
+				"Head_Coach": {
+					"Hirai": "leave"
+				}
 			},
 			"Gen_2e-G": {
-				"CuVee": "leave",
-				"Roach": "leave",
-				"Peanut": "leave",
-				"SeongHwan": "leave",
-				"Kuzan": "leave",
-				"Fly": "leave",
-				"Rich": "leave",
-				"Ruler": "origin",
-				"Life": "origin",
-				"Edgar": "origin",
-				"Rascal": "join",
-				"Clid": "join",
-				"Bdd": "join",
-				"Kellin": "join"
+				"Top": {
+					"CuVee": "leave",
+					"Roach": "leave"
+				},
+				"Jungle": {
+					"Peanut": "leave",
+					"SeongHwan": "leave"
+				},
+				"Mid": {
+					"Kuzan": "leave",
+					"Fly": "leave",
+					"Rich": "leave"
+				},
+				"Bot": {
+					"Ruler": "origin"
+				},
+				"Support": {
+					"Life": "origin",
+					"Kellin": "origin"
+				},
+				"Head_Coach": {
+					"Edgar": "origin"
+				}
 			},
 			"Griffin": {
-				"Sword": "origin",
-				"Doran": "leave",
-				"Tarzan": "origin",
-				"Chovy": "leave",
-				"Viper": "origin",
-				"Lehends": "leave",
-				"Chaos": "origin",
-				"Untara": "join",
-				"Naehyun": "join",
-				"Ucal": "join",
-				"Kabbie": "join",
-				"H": "join"
+				"Top": {
+					"Sword": "origin",
+					"Doran": "leave"
+				},
+				"Jungle": {
+					"Tarzan": "origin"
+				},
+				"Mid": {
+					"Chovy": "leave",
+					"Ucal": "origin"
+				},
+				"Bot": {
+					"Viper": "origin"
+				},
+				"Support": {
+					"Lehends": "leave"
+				},
+				"Head_Coach": {
+					"Chaos": "origin",
+					"H": "origin"
+				}
 			},
 			"Hanwha_Life_Esports": {
-				"Thal": "leave",
-				"SoHwan": "leave",
-				"MooJin": "leave",
-				"BonO": "leave",
-				"Lava": "origin",
-				"Tempt": "origin",
-				"Sangyoon": "leave",
-				"Key": "leave",
-				"OnAir": "leave",
-				"CuVee": "join",
-				"Haru": "join",
-				"Zenit": "join",
-				"Lehends": "join",
-				"Vsta": "join",
-				"Kezman": "join"
+				"Top": {
+					"Thal": "leave",
+					"SoHwan": "leave"
+				},
+				"Jungle": {
+					"MooJin": "leave",
+					"BonO": "leave"
+				},
+				"Mid": {
+					"Lava": "origin",
+					"Tempt": "origin"
+				},
+				"Bot": {
+					"Sangyoon": "leave"
+				},
+				"Support": {
+					"Key": "leave",
+					"Vsta": "origin"
+				},
+				"Head_Coach": {
+					"OnAir": "leave"
+				}
 			},
 			"KT_Rolster": {
-				"Smeb": "leave",
-				"Kingen": "leave",
-				"UmTi": "leave",
-				"Score": "leave",
-				"Bdd": "leave",
-				"PraY": "leave",
-				"SnowFlower": "leave",
-				"ZanDarC": "leave",
-				"SoHwan": "join",
-				"Ray": "join",
-				"Malrang": "join",
-				"BonO": "join",
-				"Kuro": "join",
-				"Aiming": "join",
-				"TusiN": "join",
-				"Hirai": "join"
+				"Top": {
+					"Smeb": "leave",
+					"Kingen": "leave"
+				},
+				"Jungle": {
+					"UmTi": "leave",
+					"Score": "leave"
+				},
+				"Mid": {
+					"Bdd": "leave"
+				},
+				"Bot": {
+					"PraY": "leave"
+				},
+				"Support": {
+					"SnowFlower": "leave"
+				},
+				"Head_Coach": {
+					"ZanDarC": "leave"
+				}
 			},
 			"SANDBOX_Gaming": {
-				"Summit": "origin",
-				"Wizer": "leave",
-				"OnFleek": "origin",
-				"Dove": "origin",
-				"Ghost": "leave",
-				"Joker": "origin",
-				"Laden": "origin",
-				"Lonely": "join",
-				"Punch": "join",
-				"FATE": "join",
-				"Leo": "join",
-				"Route": "join",
-				"GorillA": "join"
+				"Top": {
+					"Summit": "origin",
+					"Wizer": "leave"
+				},
+				"Jungle": {
+					"OnFleek": "origin",
+					"Punch": "origin"
+				},
+				"Mid": {
+					"Dove": "origin",
+					"FATE": "origin"
+				},
+				"Bot": {
+					"Ghost": "leave",
+					"Route": "origin"
+				},
+				"Support": {
+					"Joker": "origin",
+					"GorillA": "origin"
+				},
+				"Head_Coach": {
+					"Laden": "origin"
+				}
 			},
-			"Khan": {
-				"Clid": "leave",
-				"Haru": "leave",
-				"Faker": "origin",
-				"Gori": "origin",
-				"Teddy": "origin",
-				"Mata": "leave",
-				"Effort": "origin",
-				"KkOma": "leave",
-				"Khan": "leave",
-				"Roach": "join",
-				"Canna": "join",
-				"Ellim": "join",
-				"Cuzz": "join",
-				"Gumayusi": "join",
-				"Kuri": "join",
-				"Kim": "join"
+			"SK_Telecom_T1,T1": {
+				"Top": {
+					"Khan": "leave",
+					"Canna": "origin"
+				},
+				"Jungle": {
+					"Clid": "leave",
+					"Haru": "leave"
+				},
+				"Mid": {
+					"Faker": "origin",
+					"Gori": "origin"
+				},
+				"Bot": {
+					"Teddy": "origin",
+					"Gumayusi": "origin"
+				},
+				"Support": {
+					"Mata": "leave",
+					"Effort": "origin"
+				},
+				"Head_Coach": {
+					"KkOma": "leave"
+				}
 			}
 		}
 	},
 	"2019_Midseason": {
 		"Korea": {
 			"Afreeca_Freecs": {
-				"Kiin": "origin",
-				"Hoon": "origin",
-				"Dread": "origin",
-				"Spirit": "origin",
-				"Ucal": "origin",
-				"ALL": "origin",
-				"Aiming": "origin",
-				"SS": "origin",
-				"Jelly": "origin",
-				"Senan": "origin",
-				"Proud": "leave"
+				"Top": {
+					"Kiin": "origin",
+					"Hoon": "origin",
+					"Dread": "origin",
+					"Spirit": "origin",
+					"Ucal": "origin",
+					"ALL": "origin",
+					"Aiming": "origin",
+					"SS": "origin",
+					"Jelly": "origin",
+					"Senan": "origin",
+					"Proud": "leave"
+				}
 			},
 			"DAMWON_Gaming": {
-				"Nuguri": "origin",
-				"Flame": "origin",
-				"Canyon": "origin",
-				"Punch": "origin",
-				"ShowMaker": "origin",
-				"Nuclear": "origin",
-				"Prince": "origin",
-				"Hoit": "origin",
-				"BeryL": "origin"
+				"Top": {
+					"Nuguri": "origin",
+					"Flame": "origin",
+					"Canyon": "origin",
+					"Punch": "origin",
+					"ShowMaker": "origin",
+					"Nuclear": "origin",
+					"Prince": "origin",
+					"Hoit": "origin",
+					"BeryL": "origin"
+				}
 			},
 			"Gen_2e-G": {
-				"CuVee": "origin",
-				"Roach": "origin",
-				"Peanut": "origin",
-				"Fly": "origin",
-				"Ruler": "origin",
-				"Life": "origin",
-				"SeongHwan": "join",
-				"Kuzan": "join",
-				"Rich": "join",
-				"Asper": "join"
+				"Top": {
+					"CuVee": "origin",
+					"Roach": "origin",
+					"Peanut": "origin",
+					"SeongHwan": "origin",
+					"Fly": "origin",
+					"Kuzan": "origin",
+					"Rich": "origin",
+					"Ruler": "origin",
+					"Life": "origin",
+					"Asper": "origin"
+				}
 			},
 			"Griffin": {
-				"Sword": "origin",
-				"Tarzan": "origin",
-				"Kanavi": "origin",
-				"Chovy": "origin",
-				"Viper": "origin",
-				"Lehends": "origin",
-				"Kabbie": "origin"
+				"Top": {
+					"Sword": "origin",
+					"Doran": "origin",
+					"Tarzan": "origin",
+					"Kanavi": "origin",
+					"Chovy": "origin",
+					"Viper": "origin",
+					"Lehends": "origin",
+					"Kabbie": "origin"
+				}
 			},
 			"Hanwha_Life_Esports": {
-				"Thal": "origin",
-				"SoHwan": "origin",
-				"BonO": "origin",
-				"Lava": "origin",
-				"Tempt": "origin",
-				"Sangyoon": "origin",
-				"Clever": "leave",
-				"Key": "origin",
-				"Asper": "leave",
-				"MooJin": "join"
+				"Top": {
+					"Thal": "origin",
+					"SoHwan": "origin",
+					"BonO": "origin",
+					"MooJin": "origin",
+					"Lava": "origin",
+					"Tempt": "origin",
+					"Sangyoon": "origin",
+					"Clever": "leave",
+					"Key": "origin",
+					"Asper": "leave"
+				}
 			},
 			"Jin_Air_Green_Wings": {
-				"Lindarang": "origin",
-				"TaNa": "origin",
-				"Malrang": "origin",
-				"Seize": "origin",
-				"CheonGo": "origin",
-				"Yaharong": "origin",
-				"Route": "origin",
-				"Stitch": "origin",
-				"Kellin": "origin",
-				"Nova": "origin"
+				"Top": {
+					"Lindarang": "origin",
+					"TaNa": "origin",
+					"Malrang": "origin",
+					"Seize": "origin",
+					"CheonGo": "origin",
+					"Yaharong": "origin",
+					"Route": "origin",
+					"Stitch": "origin",
+					"Kellin": "origin",
+					"Nova": "origin"
+				}
 			},
 			"Kingzone_DragonX": {
-				"Rascal": "origin",
-				"Cuzz": "origin",
-				"PawN": "origin",
-				"Naehyun": "origin",
-				"Deft": "origin",
-				"TusiN": "origin"
+				"Top": {
+					"Rascal": "origin",
+					"Cuzz": "origin",
+					"PawN": "origin",
+					"Naehyun": "origin",
+					"Deft": "origin",
+					"TusiN": "origin"
+				}
 			},
 			"KT_Rolster": {
-				"Smeb": "origin",
-				"Kingen": "origin",
-				"Score": "origin",
-				"UmTi": "origin",
-				"Bdd": "origin",
-				"Zenit": "origin",
-				"Gango": "origin",
-				"SnowFlower": "origin",
-				"Mia": "leave",
-				"PraY": "join"
+				"Top": {
+					"Smeb": "origin",
+					"Kingen": "origin",
+					"Score": "origin",
+					"UmTi": "origin",
+					"Bdd": "origin",
+					"Zenit": "origin",
+					"Gango": "origin",
+					"PraY": "origin",
+					"SnowFlower": "origin",
+					"Mia": "leave"
+				}
 			},
 			"SANDBOX_Gaming": {
-				"Summit": "origin",
-				"Wizer": "origin",
-				"OnFleek": "origin",
-				"Crush": "origin",
-				"Dove": "origin",
-				"Justice": "origin",
-				"Ghost": "origin",
-				"Hollow": "origin",
-				"Joker": "origin",
-				"Totoro": "leave"
+				"Top": {
+					"Summit": "origin",
+					"Wizer": "origin",
+					"OnFleek": "origin",
+					"Crush": "origin",
+					"Dove": "origin",
+					"Justice": "origin",
+					"Ghost": "origin",
+					"Hollow": "origin",
+					"Joker": "origin",
+					"Totoro": "leave"
+				}
 			},
 			"SK_Telecom_T1": {
-				"Khan": "origin",
-				"Crazy": "origin",
-				"Clid": "origin",
-				"Haru": "origin",
-				"Faker": "origin",
-				"Teddy": "origin",
-				"Leo": "origin",
-				"Mata": "origin",
-				"Effort": "origin"
-			},
-			"SeolHaeOne_Prince": {
-				"Paladin": "origin",
-				"KaKAO": "origin",
-				"Mickey": "leave",
-				"Fury": "leave",
-				"Secret": "origin",
-				"Kuma": "join",
-				"HaeSeong": "join",
-				"Trigger": "join"
-			},
-			"Asura__28-Korean_Team_29-": {
-				"Reaver": "origin",
-				"Natu": "origin",
-				"ReGank": "origin",
-				"Carb": "origin",
-				"5kid": "origin",
-				"IDK": "origin",
-				"Witty": "join",
-				"Juhan": "join"
-			},
-			"Bbq_Olivers": {
-				"Heokong": "leave",
-				"Malice": "origin",
-				"Autumn": "leave",
-				"Deus": "origin",
-				"Wind": "leave",
-				"Rebel": "leave",
-				"Zzus": "leave",
-				"JackPoT": "join",
-				"Racoon": "join",
-				"Tank": "join",
-				"Rain": "join",
-				"Mocha": "join"
-			},
-			"HyFresh_Blade": {
-				"Cube": "leave",
-				"BroCColi": "leave",
-				"FATE": "origin",
-				"Alive": "leave",
-				"Cookie": "leave",
-				"Destroy": "join",
-				"Croco": "join",
-				"HyBriD": "join",
-				"Road": "join"
-			},
-			"Jisu": {
-				"Catch": "origin",
-				"Kuzan": "leave",
-				"Light": "origin",
-				"GuGer": "origin",
-				"GankNam": "join",
-				"Vins": "join",
-				"Deokdam": "join",
-				"Starrain": "join"
-			},
-			"MVP": {
-				"Beware": "origin",
-				"Carrot": "origin",
-				"Beyond": "origin",
-				"Bluff": "leave",
-				"Edge": "origin",
-				"Garden": "origin",
-				"Syu": "origin",
-				"Motive": "origin",
-				"Neulbo": "origin"
-			},
-			"VSG__28-Korean_Team_29-": {
-				"SoaR": "origin",
-				"Riris": "origin",
-				"Ryan": "origin",
-				"Mightybear": "origin",
-				"ReM": "origin",
-				"Ruby": "origin",
-				"Moo": "origin",
-				"Veritas": "origin",
-				"Minit": "origin",
-				"Pure": "origin"
-			},
-			"KronG": {
-				"Winter": "origin",
-				"Jiin": "origin",
-				"HyBriD": "leave",
-				"PluTo": "origin",
-				"BarOh": "join",
-				"Hena": "join"
+				"Top": {
+					"Khan": "origin",
+					"Crazy": "origin",
+					"Clid": "origin",
+					"Haru": "origin",
+					"Faker": "origin",
+					"Gori": "origin",
+					"Teddy": "origin",
+					"Leo": "origin",
+					"Mata": "origin",
+					"Effort": "origin"
+				}
 			}
 		}
 	},
 	"2019_Preseason": {
 		"Korea": {
 			"Afreeca_Freecs": {
-				"Kiin": "origin",
-				"Summit": "leave",
-				"Spirit": "origin",
-				"Mowgli": "leave",
-				"Kuro": "leave",
-				"Ruby": "leave",
-				"Aiming": "origin",
-				"Kramer": "leave",
-				"TusiN": "leave",
-				"Jelly": "origin",
-				"Hoon": "join",
-				"Dread": "join",
-				"Ucal": "join",
-				"ALL": "join",
-				"SS": "join",
-				"Proud": "join"
+				"Top": {
+					"Kiin": "origin",
+					"Summit": "leave",
+					"Spirit": "origin",
+					"Mowgli": "leave",
+					"Kuro": "leave",
+					"Ruby": "leave",
+					"Aiming": "origin",
+					"Kramer": "leave",
+					"TusiN": "leave",
+					"Jelly": "origin"
+				}
 			},
 			"DAMWON_Gaming": {
-				"Nuguri": "origin",
-				"Punch": "origin",
-				"Canyon": "origin",
-				"ShowMaker": "origin",
-				"Nuclear": "origin",
-				"Hoit": "origin",
-				"BeryL": "origin",
-				"Prince": "join"
+				"Top": {
+					"Nuguri": "origin",
+					"Punch": "origin",
+					"Canyon": "origin",
+					"ShowMaker": "origin",
+					"Nuclear": "origin",
+					"Prince": "origin",
+					"Hoit": "origin",
+					"BeryL": "origin"
+				}
 			},
 			"Gen_2e-G": {
-				"CuVee": "origin",
-				"Alphamong": "leave",
-				"Ambition": "leave",
-				"Haru": "origin",
-				"Crown": "origin",
-				"Fly": "origin",
-				"Ruler": "origin",
-				"CoreJJ": "origin",
-				"Life": "origin",
-				"Roach": "join",
-				"Peanut": "join"
+				"Top": {
+					"CuVee": "origin",
+					"Alphamong": "leave",
+					"Ambition": "leave",
+					"Haru": "origin",
+					"Crown": "origin",
+					"Fly": "origin",
+					"Ruler": "origin",
+					"CoreJJ": "origin",
+					"Life": "origin"
+				}
 			},
 			"Griffin": {
-				"Sword": "origin",
-				"Tarzan": "origin",
-				"Chovy": "origin",
-				"Rather": "origin",
-				"Viper": "origin",
-				"Lehends": "origin",
-				"Kabbie": "join"
+				"Top": {
+					"Sword": "origin",
+					"Tarzan": "origin",
+					"Chovy": "origin",
+					"Rather": "origin",
+					"Viper": "origin",
+					"Lehends": "origin",
+					"Kabbie": "origin"
+				}
 			},
 			"Hanwha_Life_Esports": {
-				"Lindarang": "leave",
-				"Hoon": "leave",
-				"SeongHwan": "origin",
-				"Mightybear": "leave",
-				"Lava": "origin",
-				"Kuzan": "leave",
-				"Sangyoon": "origin",
-				"Clever": "origin",
-				"Key": "origin",
-				"Asper": "origin",
-				"SoHwan": "join",
-				"Thal": "join",
-				"BonO": "join",
-				"Tempt": "join"
+				"Top": {
+					"Lindarang": "leave",
+					"Hoon": "leave",
+					"SeongHwan": "origin",
+					"Mightybear": "leave",
+					"Lava": "origin",
+					"Kuzan": "leave",
+					"Sangyoon": "origin",
+					"Clever": "origin",
+					"Key": "origin",
+					"Asper": "origin"
+				}
 			},
 			"Jin_Air_Green_Wings": {
-				"SoHwan": "leave",
-				"UmTi": "leave",
-				"KaKAO": "origin",
-				"Yaharong": "origin",
-				"Justice": "leave",
-				"Teddy": "leave",
-				"Nova": "origin",
-				"Lindarang": "join",
-				"TaNa": "join",
-				"Malrang": "join",
-				"CheonGo": "join",
-				"Stitch": "join",
-				"Route": "join",
-				"Kellin": "join"
+				"Top": {
+					"SoHwan": "leave",
+					"TaNa": "origin",
+					"UmTi": "leave",
+					"KaKAO": "origin",
+					"Yaharong": "origin",
+					"Justice": "leave",
+					"Teddy": "leave",
+					"Route": "origin",
+					"Nova": "origin",
+					"Kellin": "origin"
+				}
 			},
 			"Kingzone_DragonX": {
-				"Khan": "origin",
-				"Rascal": "origin",
-				"Peanut": "origin",
-				"Cuzz": "origin",
-				"Bdd": "leave",
-				"PraY": "leave",
-				"GorillA": "leave",
-				"PawN": "join",
-				"Naehyun": "join",
-				"Deft": "join",
-				"TusiN": "join"
+				"Top": {
+					"Khan": "origin",
+					"Rascal": "origin",
+					"Peanut": "origin",
+					"Cuzz": "origin",
+					"Bdd": "leave",
+					"Naehyun": "origin",
+					"PraY": "leave",
+					"GorillA": "leave"
+				}
 			},
 			"KT_Rolster": {
-				"Smeb": "origin",
-				"Kingen": "origin",
-				"Score": "origin",
-				"Rush": "leave",
-				"Ucal": "leave",
-				"PawN": "origin",
-				"Deft": "leave",
-				"Mata": "leave",
-				"Mia": "origin",
-				"UmTi": "join",
-				"Bdd": "join",
-				"Gango": "join",
-				"Zenit": "join",
-				"SnowFlower": "join"
+				"Top": {
+					"Smeb": "origin",
+					"Kingen": "origin",
+					"Score": "origin",
+					"Rush": "leave",
+					"Ucal": "leave",
+					"PawN": "origin",
+					"Deft": "leave",
+					"Zenit": "origin",
+					"Mata": "leave",
+					"Mia": "origin"
+				}
 			},
 			"SK_Telecom_T1": {
-				"Thal": "origin",
-				"Untara": "leave",
-				"Blank": "leave",
-				"Blossom": "leave",
-				"Faker": "origin",
-				"Pirean": "leave",
-				"Bang": "leave",
-				"Leo": "origin",
-				"Wolf": "leave",
-				"Effort": "origin",
-				"Crazy": "join",
-				"Haru": "join",
-				"Clid": "join",
-				"Gori": "join",
-				"Teddy": "join",
-				"Mata": "join"
+				"Top": {
+					"Thal": "origin",
+					"Untara": "leave",
+					"Blank": "leave",
+					"Blossom": "leave",
+					"Faker": "origin",
+					"Pirean": "leave",
+					"Bang": "leave",
+					"Leo": "origin",
+					"Wolf": "leave",
+					"Effort": "origin"
+				}
 			},
-			"SoaR": {
-				"OnFleek": "origin",
-				"Crush": "origin",
-				"Dove": "origin",
-				"Hollow": "origin",
-				"Joker": "origin",
-				"MapSSi": "origin",
-				"SoaR": "leave",
-				"Wizer": "join",
-				"Summit": "join",
-				"Ghost": "join",
-				"Totoro": "join"
+			"Team_BattleComics,SANDBOX_Gaming": {
+				"Top": {
+					"SoaR": "leave",
+					"Summit": "origin",
+					"OnFleek": "origin",
+					"Crush": "origin",
+					"Dove": "origin",
+					"Hollow": "origin",
+					"Ghost": "origin",
+					"Joker": "origin",
+					"MapSSi": "origin",
+					"Totoro": "origin"
+				}
+			}
+		}
+	},
+	"2018_Midseason": {
+		"Korea": {
+			"Afreeca_Freecs": {
+				"Top": {
+					"Kiin": "origin",
+					"Summit": "origin",
+					"Spirit": "origin",
+					"Mowgli": "origin",
+					"Kuro": "origin",
+					"Ruby": "origin",
+					"Kramer": "origin",
+					"Aiming": "origin",
+					"TusiN": "origin",
+					"Jelly": "origin"
+				}
+			},
+			"Bbq_Olivers": {
+				"Top": {
+					"Crazy": "origin",
+					"BonO": "origin",
+					"Trick": "origin",
+					"Tempt": "origin",
+					"Ghost": "origin",
+					"Prince": "origin",
+					"IgNar": "origin"
+				}
+			},
+			"KSV_eSports,Gen_2e-G": {
+				"Top": {
+					"CuVee": "origin",
+					"Alphamong": "origin",
+					"Ambition": "origin",
+					"Haru": "origin",
+					"Crown": "origin",
+					"Fly": "origin",
+					"Ruler": "origin",
+					"CoreJJ": "origin",
+					"Life": "origin"
+				}
+			},
+			"Griffin": {
+				"Top": {
+					"Sword": "origin",
+					"Tarzan": "origin",
+					"ReGank": "origin",
+					"Chovy": "origin",
+					"Rather": "origin",
+					"Viper": "origin",
+					"Lehends": "origin",
+					"Newt": "origin"
+				}
+			},
+			"ROX_Tigers,Hanwha_Life_Esports": {
+				"Top": {
+					"Lindarang": "origin",
+					"Hoon": "origin",
+					"Mightybear": "origin",
+					"SeongHwan": "origin",
+					"Kuzan": "origin",
+					"Lava": "origin",
+					"Sangyoon": "origin",
+					"Clever": "origin",
+					"Key": "origin",
+					"Asper": "origin"
+				}
+			},
+			"Jin_Air_Green_Wings": {
+				"Top": {
+					"SoHwan": "origin",
+					"UmTi": "origin",
+					"KaKAO": "origin",
+					"Yaharong": "origin",
+					"Justice": "origin",
+					"Teddy": "origin",
+					"Wraith": "leave"
+				}
+			},
+			"Kingzone_DragonX": {
+				"Top": {
+					"Khan": "origin",
+					"Rascal": "origin",
+					"Peanut": "origin",
+					"Cuzz": "origin",
+					"Bdd": "origin",
+					"PraY": "origin",
+					"GorillA": "origin"
+				}
+			},
+			"KT_Rolster": {
+				"Top": {
+					"Smeb": "origin",
+					"Score": "origin",
+					"Rush": "origin",
+					"PawN": "origin",
+					"Ucal": "origin",
+					"Deft": "origin",
+					"Mata": "origin"
+				}
+			},
+			"MVP": {
+				"Top": {
+					"ADD": "origin",
+					"Beyond": "origin",
+					"Ian": "origin",
+					"MaHa": "origin",
+					"Pilot": "origin",
+					"Max": "origin",
+					"Motive": "origin"
+				}
+			},
+			"SK_Telecom_T1": {
+				"Top": {
+					"Thal": "origin",
+					"Untara": "origin",
+					"Blossom": "origin",
+					"Blank": "origin",
+					"Faker": "origin",
+					"Pirean": "origin",
+					"Bang": "origin",
+					"Leo": "origin",
+					"Wolf": "origin",
+					"Effort": "origin"
+				}
+			}
+		}
+	},
+	"2018_Preseason": {
+		"Korea": {
+			"Afreeca_Freecs": {
+				"Top": {
+					"MaRin": "leave",
+					"Kiin": "origin",
+					"Spirit": "origin",
+					"Mowgli": "origin",
+					"Kuro": "origin",
+					"Ruby": "origin",
+					"Kramer": "origin",
+					"Aiming": "origin",
+					"TusiN": "origin",
+					"Jelly": "origin"
+				}
+			},
+			"Bbq_Olivers": {
+				"Top": {
+					"Crazy": "origin",
+					"Bless": "origin",
+					"BonO": "origin",
+					"Tempt": "origin",
+					"Ghost": "origin",
+					"Totoro": "leave"
+				}
+			},
+			"Jin_Air_Green_Wings": {
+				"Top": {
+					"Ikssu": "origin",
+					"SoHwan": "origin",
+					"UmTi": "origin",
+					"Raise": "origin",
+					"Kuzan": "leave",
+					"Justice": "origin",
+					"Teddy": "origin",
+					"SnowFlower": "leave"
+				}
+			},
+			"Longzhu_Gaming,Kingzone_DragonX": {
+				"Top": {
+					"Khan": "origin",
+					"Rascal": "origin",
+					"Cuzz": "origin",
+					"Peanut": "origin",
+					"Bdd": "origin",
+					"PraY": "origin",
+					"GorillA": "origin"
+				}
+			},
+			"Kongdoo_Monster": {
+				"Top": {
+					"Roach": "origin",
+					"Punch": "leave",
+					"Raise": "origin",
+					"Edge": "origin",
+					"CheonGo": "origin",
+					"SS": "origin",
+					"Secret": "origin",
+					"GuGer": "origin"
+				}
+			},
+			"Samsung_Galaxy,KSV_eSports": {
+				"Top": {
+					"CuVee": "origin",
+					"Ambition": "origin",
+					"Haru": "origin",
+					"Crown": "origin",
+					"Ruler": "origin",
+					"Stitch": "origin",
+					"CoreJJ": "origin",
+					"Wraith": "origin"
+				}
+			},
+			"KT_Rolster": {
+				"Top": {
+					"Smeb": "origin",
+					"Score": "origin",
+					"Rush": "origin",
+					"PawN": "origin",
+					"Ucal": "origin",
+					"Deft": "origin",
+					"Mata": "origin"
+				}
+			},
+			"MVP": {
+				"Top": {
+					"ADD": "origin",
+					"Beyond": "origin",
+					"Ian": "origin",
+					"MaHa": "origin",
+					"Pilot": "origin",
+					"Max": "origin"
+				}
+			},
+			"ROX_Tigers": {
+				"Top": {
+					"Lindarang": "origin",
+					"Shy": "origin",
+					"SeongHwan": "origin",
+					"Mightybear": "origin",
+					"Lava": "origin",
+					"Crow": "origin",
+					"Kuzan": "origin",
+					"Sangyoon": "origin",
+					"Key": "origin"
+				}
+			},
+			"SK_Telecom_T1": {
+				"Top": {
+					"Huni": "leave",
+					"Untara": "origin",
+					"Peanut": "leave",
+					"Blank": "origin",
+					"Faker": "origin",
+					"Sky": "origin",
+					"Bang": "origin",
+					"Wolf": "origin",
+					"Effort": "origin"
+				}
 			}
 		}
 	}

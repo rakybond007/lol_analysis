@@ -141,9 +141,9 @@ for key in transfer_keys:
             
             value = data_roster[key]['Korea'][team][player]
             if value == 'origin':
-                data_transfer[player][key] = 0
+                data_transfer[player][key] = [0, team]
             else:
-                data_transfer[player][key] = 1
+                data_transfer[player][key] = [1, team]
 
 print(data_transfer)
 
@@ -176,7 +176,7 @@ with open("./player_result.csv", "w", encoding="utf-8", newline='') as f:
                     data.append(' ')
         for key in transfer_keys:
             if key in data_transfer[player]:
-                data.append(data_transfer[player][key])
+                data.append(data_transfer[player][key][0])
             else:
                 data.append(' ')
         wr.writerow(data)
@@ -258,7 +258,7 @@ for prev in ['18', '19']:
             delta_KPAR = after_KPAR - prev_KPAR
 
             # ['Player', 'Transfer', 'dt(KDA)', 'dt(WR)', 'dt(KPAR)']
-            write_data = [player,  data_transfer[player][transfer], delta_kda, delta_WR, delta_KPAR]
+            write_data = [player,  data_transfer[player][transfer][0], delta_kda, delta_WR, delta_KPAR]
             wr.writerow(write_data)
 
 
@@ -340,5 +340,5 @@ for prev in ['18', '19']:
             delta_KPAR = after_KPAR - prev_KPAR
 
             # ['Player', 'Transfer', 'dt(KDA)', 'dt(WR)', 'dt(KPAR)']
-            write_data = [player,  data_transfer[player][transfer], delta_kda, delta_WR, delta_KPAR]
+            write_data = [player,  data_transfer[player][transfer][0], delta_kda, delta_WR, delta_KPAR]
             wr.writerow(write_data)

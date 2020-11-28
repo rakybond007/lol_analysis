@@ -12,7 +12,7 @@ for player in players:
 
     data_parse[player] = {}
     for season in seasons:
-        if 'LCK' not in season and 'Promotion' in season:
+        if 'LCK' not in season or 'Promotion' in season:
             continue
         elif 'Spring' not in season and 'Summer' not in season:
             continue
@@ -52,7 +52,7 @@ for player in players:
         ## total_GPM = gpm / total_GAMES #np.mean(gpms)
         total_KPAR = kpar / total_GAMES #np.mean(kpars)
 
-        total_WR = total_L / total_GAMES * 100
+        total_WR = total_W / total_GAMES * 100
 
 
 
@@ -88,10 +88,22 @@ for player in players:
             data_parse[player][season_name+"_D"] = total_D + prev_D
             data_parse[player][season_name+"_A"] = total_A + prev_A
             data_parse[player][season_name+"_GAMES"] = prev_GAMES + total_GAMES
-
-
-    
+            '''
+            if player == 'Bdd' and  ('2019' in season or '2020' in season):
+                print(prev_WR, prev_GAMES, total_WR, total_GAMES)
+            '''
+        '''
         print('CHECK', player, season)
+        if player == 'Bdd' and  ('2019' in season or '2020' in season):
+            #print('VALUE', data_player[player][season])
+            champions = data_player[player][season].keys()
+            for c in champions:
+                print(c)
+                print('\t', data_player[player][season][c])
+
+            print('PARSE', data_parse[player])
+            input()
+        '''
         # print(data_parse[player])
         #print(data_parse)
         #input()
@@ -220,6 +232,88 @@ for prev in ['18', '19']:
 
             if after+"su_"+key in data and after +"sp_"+key in data:
                 after_WR = ( data[after+"sp_"+key] * data[after+"sp_GAMES"] + data[after+"su_"+key] * data[after+"su_GAMES"] ) / (data[after+"sp_GAMES"] + data[after+"su_GAMES"]  )
+            elif after+"su_"+key in data: 
+                after_WR = data[after+"su_"+key]
+            elif after+"sp_"+key in data:
+                after_WR = data[after+"sp_"+key]
+
+            delta_WR = after_WR - prev_WR
+        
+            # PARSE DELTA(KPAR)
+            key = "KPAR"
+            if prev+"su_"+key in data and prev +"sp_"+key in data:
+                prev_KPAR = ( data[prev+"sp_"+key] * data[prev+"sp_GAMES"] + data[prev+"su_"+key] * data[prev+"su_GAMES"] ) / (data[prev+"sp_GAMES"] + data[prev+"su_GAMES"]  )
+            elif prev+"su_"+key in data: 
+                prev_KPAR = data[prev+"su_"+key]
+            elif prev+"sp_"+key in data:
+                prev_KPAR = data[prev+"sp_"+key]
+
+            if after+"su_"+key in data and after +"sp_"+key in data:
+                after_KPAR = ( data[after+"sp_"+key] * data[after+"sp_GAMES"] + data[after+"su_"+key] * data[after+"su_GAMES"] ) / (data[after+"sp_GAMES"] + data[after+"su_GAMES"]  )
+            elif after+"su_"+key in data: 
+                after_KPAR = data[after+"su_"+key]
+            elif after+"sp_"+key in data:
+                after_KPAR = data[after+"sp_"+key]
+
+            delta_KPAR = after_KPAR - prev_KPAR
+
+            # ['Player', 'Transfer', 'dt(KDA)', 'dt(WR)', 'dt(KPAR)']
+            write_data = [player,  data_transfer[player][transfer], delta_kda, delta_WR, delta_KPAR]
+            wr.writerow(write_data)
+
+
+
+
+for prev in ['18', '19']:
+    after = str(int(prev)+1); transfer = '20'+after+'_Preseason'
+
+    filename = "./"+prev+"-to-"+after+"-avg.csv"
+    print("WRITE CSV AS ", filename)
+    with open(filename, "w", encoding="utf-8", newline='') as f:
+        wr = csv.writer(f)
+        wr.writerow(['Player', 'Transfer', 'dt(KDA)', 'dt(WR)', 'dt(KPAR)'])
+
+        players = data_parse.keys()
+        for player in players:
+            # no data for trasfer btw 2018 and 2019 OR no data in 2018   OR no data in 2019 
+            if transfer not in data_transfer[player]:
+                continue
+            elif ('18sp_KDA' not in data_parse[player] and '18su_KDA' not in data_parse[player]):
+                continue
+            elif ('19sp_KDA' not in data_parse[player] and '19su_KDA' not in data_parse[player]):    
+                continue
+
+            data = data_parse[player]
+
+            # PARSE DELTA(KDA)
+            key = "KDA"
+            if prev+"su_"+key in data and prev +"sp_"+key in data:
+                prev_kda = data[prev+"su_"+key] + data[prev+"sp_"+key]
+            elif prev+"su_"+key in data: 
+                prev_kda = data[prev+"su_"+key]
+            elif prev+"sp_"+key in data:
+                prev_kda = data[prev+"sp_"+key]
+
+            if after+"su_"+key in data and after +"sp_"+key in data:
+                after_kda = data[after+"su_"+key] + data[after+"sp_"+key]
+            elif after+"su_"+key in data: 
+                after_kda = data[after+"su_"+key]
+            elif after+"sp_"+key in data:
+                after_kda = data[after+"sp_"+key]
+
+            delta_kda = after_kda - prev_kda
+
+            # PARSE DELTA(WIN RATE)
+            key = "WR"
+            if prev+"su_"+key in data and prev +"sp_"+key in data:
+                prev_WR =  data[prev+"su_"+key] + data[prev+"sp_"+key]
+            elif prev+"su_"+key in data: 
+                prev_WR = data[prev+"su_"+key]
+            elif prev+"sp_"+key in data:
+                prev_WR = data[prev+"sp_"+key]
+
+            if after+"su_"+key in data and after +"sp_"+key in data:
+                after_WR = data[after+"su_"+key] + data[after+"sp_"+key]
             elif after+"su_"+key in data: 
                 after_WR = data[after+"su_"+key]
             elif after+"sp_"+key in data:

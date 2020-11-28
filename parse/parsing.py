@@ -170,6 +170,81 @@ with open("./player_result.csv", "w", encoding="utf-8", newline='') as f:
         wr.writerow(data)
 
 
-with open("./18-to-19.csv", "w", encoding="utf-8", newline='') as f:
+for prev in ['18', '19']:
+    after = str(int(prev)+1); transfer = '20'+after+'_Preseason'
 
-    
+    filename = "./"+prev+"-to-"+after+"-ratio.csv"
+    print("WRITE CSV AS ", filename)
+    with open(filename, "w", encoding="utf-8", newline='') as f:
+        wr = csv.writer(f)
+        wr.writerow(['Player', 'Transfer', 'dt(KDA)', 'dt(WR)', 'dt(KPAR)'])
+
+        players = data_parse.keys()
+        for player in players:
+            # no data for trasfer btw 2018 and 2019 OR no data in 2018   OR no data in 2019 
+            if transfer not in data_transfer[player]:
+                continue
+            elif ('18sp_KDA' not in data_parse[player] and '18su_KDA' not in data_parse[player]):
+                continue
+            elif ('19sp_KDA' not in data_parse[player] and '19su_KDA' not in data_parse[player]):    
+                continue
+
+            data = data_parse[player]
+
+            # PARSE DELTA(KDA)
+            key = "KDA"
+            if prev+"su_"+key in data and prev +"sp_"+key in data:
+                prev_kda = ( data[prev+"sp_"+key] * data[prev+"sp_GAMES"] + data[prev+"su_"+key] * data[prev+"su_GAMES"] ) / (data[prev+"sp_GAMES"] + data[prev+"su_GAMES"]  )
+            elif prev+"su_"+key in data: 
+                prev_kda = data[prev+"su_"+key]
+            elif prev+"sp_"+key in data:
+                prev_kda = data[prev+"sp_"+key]
+
+            if after+"su_"+key in data and after +"sp_"+key in data:
+                after_kda = ( data[after+"sp_"+key] * data[after+"sp_GAMES"] + data[after+"su_"+key] * data[after+"su_GAMES"] ) / (data[after+"sp_GAMES"] + data[after+"su_GAMES"]  )
+            elif after+"su_"+key in data: 
+                after_kda = data[after+"su_"+key]
+            elif after+"sp_"+key in data:
+                after_kda = data[after+"sp_"+key]
+
+            delta_kda = after_kda - prev_kda
+
+            # PARSE DELTA(WIN RATE)
+            key = "WR"
+            if prev+"su_"+key in data and prev +"sp_"+key in data:
+                prev_WR = ( data[prev+"sp_"+key] * data[prev+"sp_GAMES"] + data[prev+"su_"+key] * data[prev+"su_GAMES"] ) / (data[prev+"sp_GAMES"] + data[prev+"su_GAMES"]  )
+            elif prev+"su_"+key in data: 
+                prev_WR = data[prev+"su_"+key]
+            elif prev+"sp_"+key in data:
+                prev_WR = data[prev+"sp_"+key]
+
+            if after+"su_"+key in data and after +"sp_"+key in data:
+                after_WR = ( data[after+"sp_"+key] * data[after+"sp_GAMES"] + data[after+"su_"+key] * data[after+"su_GAMES"] ) / (data[after+"sp_GAMES"] + data[after+"su_GAMES"]  )
+            elif after+"su_"+key in data: 
+                after_WR = data[after+"su_"+key]
+            elif after+"sp_"+key in data:
+                after_WR = data[after+"sp_"+key]
+
+            delta_WR = after_WR - prev_WR
+        
+            # PARSE DELTA(KPAR)
+            key = "KPAR"
+            if prev+"su_"+key in data and prev +"sp_"+key in data:
+                prev_KPAR = ( data[prev+"sp_"+key] * data[prev+"sp_GAMES"] + data[prev+"su_"+key] * data[prev+"su_GAMES"] ) / (data[prev+"sp_GAMES"] + data[prev+"su_GAMES"]  )
+            elif prev+"su_"+key in data: 
+                prev_KPAR = data[prev+"su_"+key]
+            elif prev+"sp_"+key in data:
+                prev_KPAR = data[prev+"sp_"+key]
+
+            if after+"su_"+key in data and after +"sp_"+key in data:
+                after_KPAR = ( data[after+"sp_"+key] * data[after+"sp_GAMES"] + data[after+"su_"+key] * data[after+"su_GAMES"] ) / (data[after+"sp_GAMES"] + data[after+"su_GAMES"]  )
+            elif after+"su_"+key in data: 
+                after_KPAR = data[after+"su_"+key]
+            elif after+"sp_"+key in data:
+                after_KPAR = data[after+"sp_"+key]
+
+            delta_KPAR = after_KPAR - prev_KPAR
+
+            # ['Player', 'Transfer', 'dt(KDA)', 'dt(WR)', 'dt(KPAR)']
+            write_data = [player,  data_transfer[player][transfer], delta_kda, delta_WR, delta_KPAR]
+            wr.writerow(write_data)

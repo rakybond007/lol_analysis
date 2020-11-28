@@ -38,11 +38,24 @@ def crawl_roster():
                 #team name no change
                 print(season)
                 if not team_name_tr.select("th.rosterswap-current-new"):
-                    team_name = team_name_tr.select("th")[1].find('a').attrs['data-to-id']
+                    #print(team_name_tr.select("th")[1].find('a').attrs)
+                    if not 'data-to-id' in team_name_tr.select("th")[1].find('a').attrs:
+                        team_name = team_name_tr.select("th")[1].find('a').attrs['title']
+                    else:
+                        team_name = team_name_tr.select("th")[1].find('a').attrs['data-to-id']
                     #print(team_name)
                 else:
-                    team_name_prev = team_name_tr.select("th.rosterswap-current-old")[0].find('a').attrs['data-to-id']
-                    team_name_post = team_name_tr.select("th.rosterswap-current-new")[0].find('a').attrs['data-to-id']
+                    team_name_prev_attrs = team_name_tr.select("th.rosterswap-current-old")[0].find('a').attrs
+                    if not 'data-to-id' in team_name_prev_attrs:
+                        team_name_prev = team_name_prev_attrs['title']
+                    else:
+                        team_name_prev = team_name_prev_attrs['data-to-id']
+                    team_name_post_attrs = team_name_tr.select("th.rosterswap-current-new")[0].find('a').attrs
+                    if not 'data-to-id' in team_name_prev_attrs:
+                        team_name_post = team_name_post_attrs['title']
+                    else:
+                        team_name_post = team_name_post_attrs['data-to-id']
+                    #team_name_post = team_name_tr.select("th.rosterswap-current-new")[0].find('a').attrs['data-to-id']
                     team_name = team_name_prev + ',' + team_name_post
                 table_roster = table_info[roster_start_idx:]
                 '''
@@ -66,11 +79,15 @@ def crawl_roster():
                 position_idx = 0
                 line_per_num = 0
                 roster_dict[season][country][team_name] = {}
-                print(position_nums)
                 for each_player in table_roster:
                     if each_player.find('a') == None:
                         continue
-                    progamer_id = each_player.find('a').attrs['data-to-id']
+                    progamer_id_attrs = each_player.find('a').attrs
+                    if not 'data-to-id' in progamer_id_attrs:
+                        progamer_id = progamer_id_attrs['title']
+                    else:
+                        progamer_id = progamer_id_attrs['data-to-id']
+                    #progamer_id = each_player.find('a').attrs['data-to-id']
                     if len(progamer_id.split('_')) > 1:
                         progamer_id = progamer_id.split('_')[0]
                     progamer_set.add(progamer_id)
@@ -79,9 +96,8 @@ def crawl_roster():
                         line_per_num = 0
                     if line_per_num == 0:
                         roster_dict[season][country][team_name][position_names[position_idx]] = {}
-                    #print(len(each_player.select("td")))
                     # join 이 없는 라인. 떠나기만 했거나, 남아있거나.
-                    if not each_player.select("td.rosterswap-current-old.rosterswap-current-join"):
+                    if not each_player.select("td.rosterswap-current-new.rosterswap-current-join"):
                         # 떠난 사람
                         if each_player.select("td.rosterswap-current-old.rosterswap-current-leave"):
                             roster_dict[season][country][team_name][position_names[position_idx]][progamer_id] = "leave"
@@ -92,8 +108,10 @@ def crawl_roster():
                         if each_player.select("td.rosterswap-current-old.rosterswap-current-leave"):
                             roster_dict[season][country][team_name][position_names[position_idx]][progamer_id] = "leave"
                         else:
+                            
                             roster_dict[season][country][team_name][position_names[position_idx]][progamer_id] = "join"
                     line_per_num += 1
+
                 # Past version code
                 '''
                 if not team_name in roster_dict:

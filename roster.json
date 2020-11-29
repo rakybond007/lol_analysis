@@ -21,6 +21,10 @@
 				},
 				"Head_Coach": {
 					"Iloveoov": "leave"
+				},
+				"Score": {
+					"rank": "5",
+					"pts": "1"
 				}
 			},
 			"DAMWON_Gaming": {
@@ -43,6 +47,10 @@
 				"Head_Coach": {
 					"Zefa": "leave",
 					"KkOma": "join"
+				},
+				"Score": {
+					"rank": "1",
+					"pts": "29"
 				}
 			},
 			"DRX": {
@@ -68,6 +76,10 @@
 				},
 				"Head_Coach": {
 					"CvMax": "origin"
+				},
+				"Score": {
+					"rank": "2",
+					"pts": "19"
 				}
 			},
 			"Gen_2e-G": {
@@ -89,6 +101,10 @@
 				},
 				"Head_Coach": {
 					"ODin": "origin"
+				},
+				"Score": {
+					"rank": "3",
+					"pts": "19"
 				}
 			},
 			"Hanwha_Life_Esports": {
@@ -118,6 +134,10 @@
 				},
 				"Head_Coach": {
 					"Kezman": "origin"
+				},
+				"Score": {
+					"rank": "9",
+					"pts": "-26"
 				}
 			},
 			"KT_Rolster": {
@@ -142,6 +162,10 @@
 				},
 				"Head_Coach": {
 					"Hirai": "origin"
+				},
+				"Score": {
+					"rank": "6",
+					"pts": "-7"
 				}
 			},
 			"SANDBOX_Gaming": {
@@ -166,6 +190,10 @@
 				"Head_Coach": {
 					"YamatoCannon": "leave",
 					"Micro__28-Kim_Mok_2d-kyoung_29-": "join"
+				},
+				"Score": {
+					"rank": "7",
+					"pts": "-8"
 				}
 			},
 			"SeolHaeOne_Prince": {
@@ -190,6 +218,10 @@
 				},
 				"Head_Coach": {
 					"Sickness": "leave"
+				},
+				"Score": {
+					"rank": "10",
+					"pts": "-29"
 				}
 			},
 			"T1": {
@@ -217,6 +249,10 @@
 				"Head_Coach": {
 					"Kim": "leave",
 					"Daeny": "join"
+				},
+				"Score": {
+					"rank": "4",
+					"pts": "14"
 				}
 			},
 			"Team_Dynamics": {
@@ -237,6 +273,10 @@
 				},
 				"Head_Coach": {
 					"SBs": "origin"
+				},
+				"Score": {
+					"rank": "8",
+					"pts": "-12"
 				}
 			}
 		}
@@ -266,6 +306,10 @@
 				},
 				"Head_Coach": {
 					"Iloveoov": "origin"
+				},
+				"Score": {
+					"rank": "6",
+					"pts": "-8"
 				}
 			},
 			"APK Prince;SeolHaeOne Prince": {
@@ -290,6 +334,10 @@
 				},
 				"Head_Coach": {
 					"Sickness": "origin"
+				},
+				"Score": {
+					"rank": "7",
+					"pts": "-9"
 				}
 			},
 			"DAMWON Gaming": {
@@ -312,6 +360,10 @@
 				},
 				"Head_Coach": {
 					"Zefa": "origin"
+				},
+				"Score": {
+					"rank": "5",
+					"pts": "1"
 				}
 			},
 			"DragonX;DRX": {
@@ -333,6 +385,10 @@
 				},
 				"Head_Coach": {
 					"CvMax": "origin"
+				},
+				"Score": {
+					"rank": "3",
+					"pts": "16"
 				}
 			},
 			"Gen.G": {
@@ -354,6 +410,10 @@
 				},
 				"Head_Coach": {
 					"Edgar": "leave"
+				},
+				"Score": {
+					"rank": "1",
+					"pts": "18"
 				}
 			},
 			"Hanwha Life Esports": {
@@ -381,6 +441,10 @@
 				},
 				"Head_Coach": {
 					"Kezman": "origin"
+				},
+				"Score": {
+					"rank": "8",
+					"pts": "-11"
 				}
 			},
 			"KT Rolster": {
@@ -405,6 +469,10 @@
 				},
 				"Head_Coach": {
 					"Hirai": "origin"
+				},
+				"Score": {
+					"rank": "4",
+					"pts": "2"
 				}
 			},
 			"SANDBOX Gaming": {
@@ -431,6 +499,10 @@
 				"Head_Coach": {
 					"Laden": "leave",
 					"YamatoCannon": "join"
+				},
+				"Score": {
+					"rank": "9",
+					"pts": "-12"
 				}
 			},
 			"T1": {
@@ -454,6 +526,10 @@
 				},
 				"Head_Coach": {
 					"Kim (Kim Jeong-soo)": "origin"
+				},
+				"Score": {
+					"rank": "2",
+					"pts": "16"
 				}
 			},
 			"Team Dynamics": {
@@ -474,6 +550,10 @@
 				},
 				"Head_Coach": {
 					"SBs": "origin"
+				},
+				"Score": {
+					"rank": "10",
+					"pts": "-13"
 				}
 			}
 		}
@@ -504,6 +584,14 @@
 				"Head_Coach": {
 					"NoFe": "leave",
 					"Iloveoov": "join"
+				},
+				"Score": {
+					"rank": "5",
+					"pts": "6"
+				},
+				"Score": {
+					"rank": "5",
+					"pts": "6"
 				}
 			},
 			"SeolHaeOne_Prince": {
@@ -531,6 +619,10 @@
 				},
 				"Head_Coach": {
 					"Sickness": "origin"
+				},
+				"Score": {
+					"rank": "10",
+					"pts": "-32"
 				}
 			},
 			"DAMWON_Gaming": {
@@ -554,6 +646,10 @@
 				},
 				"Head_Coach": {
 					"Micro": "origin"
+				},
+				"Score": {
+					"rank": "2",
+					"pts": "12"
 				}
 			},
 			"Kingzone_DragonX;DRX": {
@@ -580,6 +676,10 @@
 				"Head_Coach": {
 					"Hirai": "leave",
 					"CvMax": "join"
+				},
+				"Score": {
+					"rank": "7",
+					"pts": "0"
 				}
 			},
 			"Gen_2e-G": {
@@ -608,6 +708,10 @@
 				},
 				"Head_Coach": {
 					"Edgar": "origin"
+				},
+				"Score": {
+					"rank": "6",
+					"pts": "4"
 				}
 			},
 			"Griffin": {
@@ -634,6 +738,10 @@
 				"Head_Coach": {
 					"Chaos": "origin",
 					"H": "join"
+				},
+				"Score": {
+					"rank": "1",
+					"pts": "16"
 				}
 			},
 			"Hanwha_Life_Esports": {
@@ -663,6 +771,10 @@
 				"Head_Coach": {
 					"OnAir": "leave",
 					"Kezman": "join"
+				},
+				"Score": {
+					"rank": "9",
+					"pts": "-12"
 				}
 			},
 			"KT_Rolster": {
@@ -693,6 +805,10 @@
 				"Head_Coach": {
 					"ZanDarC": "leave",
 					"Hirai": "join"
+				},
+				"Score": {
+					"rank": "8",
+					"pts": "-12"
 				}
 			},
 			"SANDBOX_Gaming": {
@@ -720,6 +836,10 @@
 				},
 				"Head_Coach": {
 					"Laden": "origin"
+				},
+				"Score": {
+					"rank": "3",
+					"pts": "9"
 				}
 			},
 			"SK_Telecom_T1;T1": {
@@ -750,6 +870,10 @@
 				"Head_Coach": {
 					"KkOma": "leave",
 					"Kim__28-Kim_Jeong_2d-soo_29-": "join"
+				},
+				"Score": {
+					"rank": "4",
+					"pts": "9"
 				}
 			}
 		}
@@ -777,6 +901,10 @@
 					"Jelly": "origin",
 					"Senan": "origin",
 					"Proud": "leave"
+				},
+				"Score": {
+					"rank": "8",
+					"pts": "-15"
 				}
 			},
 			"DAMWON_Gaming": {
@@ -798,6 +926,10 @@
 				"Support": {
 					"Hoit": "origin",
 					"BeryL": "origin"
+				},
+				"Score": {
+					"rank": "5",
+					"pts": "8"
 				}
 			},
 			"Gen_2e-G": {
@@ -820,6 +952,10 @@
 				"Support": {
 					"Life": "origin",
 					"Asper": "join"
+				},
+				"Score": {
+					"rank": "7",
+					"pts": "-12"
 				}
 			},
 			"Griffin": {
@@ -840,6 +976,10 @@
 				"Support": {
 					"Lehends": "origin",
 					"Kabbie": "origin"
+				},
+				"Score": {
+					"rank": "1",
+					"pts": "23"
 				}
 			},
 			"Hanwha_Life_Esports": {
@@ -862,6 +1002,10 @@
 				"Support": {
 					"Key": "origin",
 					"Asper": "leave"
+				},
+				"Score": {
+					"rank": "6",
+					"pts": "-1"
 				}
 			},
 			"Jin_Air_Green_Wings": {
@@ -884,6 +1028,10 @@
 				"Support": {
 					"Kellin": "origin",
 					"Nova": "origin"
+				},
+				"Score": {
+					"rank": "10",
+					"pts": "-32"
 				}
 			},
 			"Kingzone_DragonX": {
@@ -902,6 +1050,10 @@
 				},
 				"Support": {
 					"TusiN": "origin"
+				},
+				"Score": {
+					"rank": "3",
+					"pts": "15"
 				}
 			},
 			"KT_Rolster": {
@@ -924,6 +1076,10 @@
 				"Support": {
 					"SnowFlower": "origin",
 					"Mia": "leave"
+				},
+				"Score": {
+					"rank": "9",
+					"pts": "-16"
 				}
 			},
 			"SANDBOX_Gaming": {
@@ -946,6 +1102,10 @@
 				"Support": {
 					"Joker": "origin",
 					"Totoro": "leave"
+				},
+				"Score": {
+					"rank": "4",
+					"pts": "12"
 				}
 			},
 			"SK_Telecom_T1": {
@@ -968,6 +1128,10 @@
 				"Support": {
 					"Mata": "origin",
 					"Effort": "origin"
+				},
+				"Score": {
+					"rank": "2",
+					"pts": "18"
 				}
 			}
 		}
@@ -1000,6 +1164,10 @@
 					"TusiN": "leave",
 					"Proud": "join",
 					"Jelly": "origin"
+				},
+				"Score": {
+					"rank": "5",
+					"pts": "6"
 				}
 			},
 			"DAMWON_Gaming": {
@@ -1020,6 +1188,10 @@
 				"Support": {
 					"Hoit": "origin",
 					"BeryL": "origin"
+				},
+				"Score": {
+					"rank": "9",
+					"pts": "-19"
 				}
 			},
 			"Gen_2e-G": {
@@ -1043,6 +1215,10 @@
 				"Support": {
 					"CoreJJ": "origin",
 					"Life": "origin"
+				},
+				"Score": {
+					"rank": "4",
+					"pts": "12"
 				}
 			},
 			"Griffin": {
@@ -1062,6 +1238,10 @@
 				"Support": {
 					"Lehends": "origin",
 					"Kabbie": "join"
+				},
+				"Score": {
+					"rank": "2",
+					"pts": "15"
 				}
 			},
 			"Hanwha_Life_Esports": {
@@ -1088,6 +1268,10 @@
 				"Support": {
 					"Key": "origin",
 					"Asper": "origin"
+				},
+				"Score": {
+					"rank": "6",
+					"pts": "4"
 				}
 			},
 			"Jin_Air_Green_Wings": {
@@ -1114,6 +1298,10 @@
 				"Support": {
 					"Nova": "origin",
 					"Kellin": "join"
+				},
+				"Score": {
+					"rank": "8",
+					"pts": "-17"
 				}
 			},
 			"Kingzone_DragonX": {
@@ -1137,6 +1325,10 @@
 				"Support": {
 					"GorillA": "leave",
 					"TusiN": "join"
+				},
+				"Score": {
+					"rank": "3",
+					"pts": "13"
 				}
 			},
 			"KT_Rolster": {
@@ -1163,6 +1355,10 @@
 					"Mata": "leave",
 					"SnowFlower": "join",
 					"Mia": "origin"
+				},
+				"Score": {
+					"rank": "1",
+					"pts": "15"
 				}
 			},
 			"SK_Telecom_T1": {
@@ -1191,6 +1387,10 @@
 					"Wolf": "leave",
 					"Mata": "join",
 					"Effort": "origin"
+				},
+				"Score": {
+					"rank": "7",
+					"pts": "-4"
 				}
 			},
 			"Team_BattleComics;SANDBOX_Gaming": {
@@ -1214,6 +1414,10 @@
 					"Joker": "origin",
 					"MapSSi": "origin",
 					"Totoro": "join"
+				},
+				"Score": {
+					"rank": "10",
+					"pts": "-25"
 				}
 			}
 		}
@@ -1240,6 +1444,10 @@
 				"Support": {
 					"TusiN": "origin",
 					"Jelly": "origin"
+				},
+				"Score": {
+					"rank": "2",
+					"pts": "15"
 				}
 			},
 			"Bbq_Olivers": {
@@ -1259,6 +1467,10 @@
 				},
 				"Support": {
 					"IgNar": "origin"
+				},
+				"Score": {
+					"rank": "8",
+					"pts": "-10"
 				}
 			},
 			"KSV_eSports;Gen_2e-G": {
@@ -1280,6 +1492,10 @@
 				"Support": {
 					"CoreJJ": "origin",
 					"Life": "origin"
+				},
+				"Score": {
+					"rank": "5",
+					"pts": "0"
 				}
 			},
 			"Griffin": {
@@ -1300,6 +1516,10 @@
 				"Support": {
 					"Lehends": "origin",
 					"Newt": "origin"
+				},
+				"Score": {
+					"rank": "10",
+					"pts": "-23"
 				}
 			},
 			"ROX_Tigers;Hanwha_Life_Esports": {
@@ -1322,6 +1542,10 @@
 				"Support": {
 					"Key": "origin",
 					"Asper": "join"
+				},
+				"Score": {
+					"rank": "6",
+					"pts": "-1"
 				}
 			},
 			"Jin_Air_Green_Wings": {
@@ -1342,6 +1566,10 @@
 				"Support": {
 					"Wraith": "leave",
 					"Nova__28-Park_Chan_2d-ho_29-": "join"
+				},
+				"Score": {
+					"rank": "7",
+					"pts": "-7"
 				}
 			},
 			"Kingzone_DragonX": {
@@ -1361,6 +1589,10 @@
 				},
 				"Support": {
 					"GorillA": "origin"
+				},
+				"Score": {
+					"rank": "1",
+					"pts": "26"
 				}
 			},
 			"KT_Rolster": {
@@ -1380,6 +1612,10 @@
 				},
 				"Support": {
 					"Mata": "origin"
+				},
+				"Score": {
+					"rank": "3",
+					"pts": "13"
 				}
 			},
 			"MVP": {
@@ -1399,6 +1635,10 @@
 				"Support": {
 					"Max": "origin",
 					"Motive": "join"
+				},
+				"Score": {
+					"rank": "9",
+					"pts": "-14"
 				}
 			},
 			"SK_Telecom_T1": {
@@ -1421,6 +1661,10 @@
 				"Support": {
 					"Wolf": "origin",
 					"Effort": "origin"
+				},
+				"Score": {
+					"rank": "4",
+					"pts": "0"
 				}
 			}
 		}

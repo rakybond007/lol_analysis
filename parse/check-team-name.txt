@@ -1,0 +1,372 @@
+=====================================================================
+2018_spring
+Afreeca Freecs
+,
+"Score": {
+	"rank": "2",
+	"pts": "15"
+}
+Jin Air Green Wings1
+,
+"Score": {
+	"rank": "7",
+	"pts": "-7"
+}
+KSV eSports
+,
+"Score": {
+	"rank": "5",
+	"pts": "0"
+}
+KT Rolster
+,
+"Score": {
+	"rank": "3",
+	"pts": "13"
+}
+Kingzone DragonX
+,
+"Score": {
+	"rank": "1",
+	"pts": "26"
+}
+Kongdoo Monster
+,
+"Score": {
+	"rank": "10",
+	"pts": "-23"
+}
+MVP
+,
+"Score": {
+	"rank": "9",
+	"pts": "-14"
+}
+ROX Tigers
+,
+"Score": {
+	"rank": "6",
+	"pts": "-1"
+}
+SK Telecom T1
+,
+"Score": {
+	"rank": "4",
+	"pts": "0"
+}
+bbq Olivers
+,
+"Score": {
+	"rank": "8",
+	"pts": "-10"
+}
+=====================================================================
+2018_summer
+Afreeca Freecs
+,
+"Score": {
+	"rank": "5",
+	"pts": "6"
+}
+Gen.G
+,
+"Score": {
+	"rank": "4",
+	"pts": "12"
+}
+Griffin
+,
+"Score": {
+	"rank": "2",
+	"pts": "15"
+}
+Hanwha Life Esports
+,
+"Score": {
+	"rank": "6",
+	"pts": "4"
+}
+Jin Air Green Wings
+,
+"Score": {
+	"rank": "8",
+	"pts": "-17"
+}
+KT Rolster
+,
+"Score": {
+	"rank": "1",
+	"pts": "15"
+}
+Kingzone DragonX
+,
+"Score": {
+	"rank": "3",
+	"pts": "13"
+}
+MVP
+,
+"Score": {
+	"rank": "9",
+	"pts": "-19"
+}
+SK Telecom T1
+,
+"Score": {
+	"rank": "7",
+	"pts": "-4"
+}
+bbq Olivers
+,
+"Score": {
+	"rank": "10",
+	"pts": "-25"
+}
+=====================================================================
+2019_spring
+Afreeca Freecs
+,
+"Score": {
+	"rank": "8",
+	"pts": "-15"
+}
+DAMWON Gaming
+,
+"Score": {
+	"rank": "5",
+	"pts": "8"
+}
+Gen.G
+,
+"Score": {
+	"rank": "7",
+	"pts": "-12"
+}
+Griffin
+,
+"Score": {
+	"rank": "1",
+	"pts": "23"
+}
+Hanwha Life Esports
+,
+"Score": {
+	"rank": "6",
+	"pts": "-1"
+}
+Jin Air Green Wings
+,
+"Score": {
+	"rank": "10",
+	"pts": "-32"
+}
+KT Rolster
+,
+"Score": {
+	"rank": "9",
+	"pts": "-16"
+}
+Kingzone DragonX
+,
+"Score": {
+	"rank": "3",
+	"pts": "15"
+}
+SANDBOX Gaming
+,
+"Score": {
+	"rank": "4",
+	"pts": "12"
+}
+SK Telecom T1
+,
+"Score": {
+	"rank": "2",
+	"pts": "18"
+}
+=====================================================================
+2019_summer
+Afreeca Freecs
+,
+"Score": {
+	"rank": "5",
+	"pts": "6"
+}
+DAMWON Gaming
+,
+"Score": {
+	"rank": "2",
+	"pts": "12"
+}
+Gen.G
+,
+"Score": {
+	"rank": "6",
+	"pts": "4"
+}
+Griffin
+,
+"Score": {
+	"rank": "1",
+	"pts": "16"
+}
+Hanwha Life Esports
+,
+"Score": {
+	"rank": "9",
+	"pts": "-12"
+}
+Jin Air Green Wings
+,
+"Score": {
+	"rank": "10",
+	"pts": "-32"
+}
+KT Rolster
+,
+"Score": {
+	"rank": "8",
+	"pts": "-12"
+}
+Kingzone DragonX
+,
+"Score": {
+	"rank": "7",
+	"pts": "0"
+}
+SANDBOX Gaming
+,
+"Score": {
+	"rank": "3",
+	"pts": "9"
+}
+SK Telecom T1
+,
+"Score": {
+	"rank": "4",
+	"pts": "9"
+}
+=====================================================================
+2020_spring
+APK Prince
+,
+"Score": {
+	"rank": "7",
+	"pts": "-9"
+}
+Afreeca Freecs
+,
+"Score": {
+	"rank": "6",
+	"pts": "-8"
+}
+DAMWON Gaming
+,
+"Score": {
+	"rank": "5",
+	"pts": "1"
+}
+DragonX
+,
+"Score": {
+	"rank": "3",
+	"pts": "16"
+}
+Gen.G
+,
+"Score": {
+	"rank": "1",
+	"pts": "18"
+}
+Griffin
+,
+"Score": {
+	"rank": "10",
+	"pts": "-13"
+}
+Hanwha Life Esports
+,
+"Score": {
+	"rank": "8",
+	"pts": "-11"
+}
+KT Rolster
+,
+"Score": {
+	"rank": "4",
+	"pts": "2"
+}
+SANDBOX Gaming
+,
+"Score": {
+	"rank": "9",
+	"pts": "-12"
+}
+T1
+,
+"Score": {
+	"rank": "2",
+	"pts": "16"
+}
+=====================================================================
+2020_summer
+Afreeca Freecs
+,
+"Score": {
+	"rank": "5",
+	"pts": "1"
+}
+DAMWON Gaming
+,
+"Score": {
+	"rank": "1",
+	"pts": "29"
+}
+DRX
+,
+"Score": {
+	"rank": "2",
+	"pts": "19"
+}
+Gen.G
+,
+"Score": {
+	"rank": "3",
+	"pts": "19"
+}
+Hanwha Life Esports
+,
+"Score": {
+	"rank": "9",
+	"pts": "-26"
+}
+KT Rolster
+,
+"Score": {
+	"rank": "6",
+	"pts": "-7"
+}
+SANDBOX Gaming
+,
+"Score": {
+	"rank": "7",
+	"pts": "-8"
+}
+SeolHaeOne Prince
+,
+"Score": {
+	"rank": "10",
+	"pts": "-29"
+}
+T1
+,
+"Score": {
+	"rank": "4",
+	"pts": "14"
+}
+Team Dynamics
+,
+"Score": {
+	"rank": "8",
+	"pts": "-12"
+}

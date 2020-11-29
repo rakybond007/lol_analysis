@@ -105,22 +105,40 @@ for year in years:
 
 
 for key in transfer_keys:
+    print('SEASON', key)
     teams = data_roster[key]['Korea'].keys()
     for team in teams:
-        players = data_roster[key]['Korea'][team].keys()
-        for player in players:
-            if player not in data_transfer:
-                data_transfer[player] = {}
-            
-            value = data_roster[key]['Korea'][team][player]
-            if value == 'origin':
-                data_transfer[player][key] = [0, team]
-            else:
-                data_transfer[player][key] = [1, team]
+        positions = data_roster[key]['Korea'][team].keys()
+        for position in positions:
+            players = data_roster[key]['Korea'][team][position].keys()
+            for player in players:
+                if player not in data_transfer:
+                    data_transfer[player] = {}
+                
+                #print(team)
+                teamname = team.split(",")[-1]
+                if 'Score' not in data_roster[key]['Korea'][team]:
+                    print("NO DATA", teamname, 'in', key)
+                else:    
+                    teamrank = data_roster[key]['Korea'][team]['Score']['rank']
+                    teampts = data_roster[key]['Korea'][team]['Score']['pts']
 
+                value = data_roster[key]['Korea'][team][position][player]
+                if value == 'origin':
+                    leave_or_not = 0
+                else:
+                    leave_or_not = 1
+
+                if player == 'Edge':   
+                    print(player,'\t', teamname,'\t', key)
+                    print(data_transfer[player])
+                data_transfer[player][key] = [leave_or_not, teamname, teamrank, teampts]
+            
+        
 #print(data_transfer)
 
 
+'''
 # PARSE TEAM SCORE
 team_scores = {}
 for y in ['2018', '2019', '2020']:
@@ -138,10 +156,8 @@ for y in ['2018', '2019', '2020']:
             team_scores[y+"_"+s][teamname]={'rank': rank, 'pts':pts}
 
 
-
-
+'''
 # WRITE SCORE
-
 for prev in ['18', '19']:
     after = str(int(prev)+1); transfer = '20'+after+'_Preseason'
 
@@ -153,8 +169,10 @@ for prev in ['18', '19']:
 
         players = data_parse.keys()
         for player in players:
-            # no data for trasfer btw 2018 and 2019 OR no data in 2018   OR no data in 2019 
-            if transfer not in data_transfer[player]:
+            # no data for trasfer btw 2018 and 2019    OR no data in 2018   OR no data in 2019 
+            if player not in data_transfer:
+                continue # for Edge (just in 2018 preseason)
+            elif transfer not in data_transfer[player]:
                 continue
             elif ('18sp_KDA' not in data_parse[player] and '18su_KDA' not in data_parse[player]):
                 continue
@@ -191,10 +209,7 @@ for prev in ['18', '19']:
                 prev_KPAR = data[prev+"sp_"+key]
 
 
-            # wr.writerow(['Player', 'Transfer', 'dt(KDA)', 'dt(WR)', 'dt(KPAR)', 'team-rank', 'team-pts'])
-            teamname = data_roster[player]['20'+prev+"_"] # data_roster['Chovy']['2019_Preseason']= [0, 'Griffin']
-            write_data = [player,  data_transfer[player][transfer][0]]
+            # wr.writerow(['Player', 'Transfer', 'KDA', 'WR', 'KPAR', 'Team-Rank', 'Team-Pts'])
+            #teamname = data_roster[player]['20'+prev+"_"] # data_roster['Chovy']['2019_Preseason']= [0, 'Griffin', 1, 16]
+            write_data = [player, data_transfer[player][transfer][0], prev_kda, prev_WR, prev_KPAR, data_transfer[player][transfer][-2], data_transfer[player][transfer][-1]]
             wr.writerow(write_data)
-
-
-

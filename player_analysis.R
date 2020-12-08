@@ -1,6 +1,7 @@
+########### WIN RATE ############
 # avg
-avg1819 <- read.csv("./parse/18-to-19-avg.csv", header=T)
-avg1920 <- read.csv("./parse/19-to-20-avg.csv", header=T)
+avg1819 <- read.csv("./18-to-19-avg.csv", header=T)
+avg1920 <- read.csv("./19-to-20-avg.csv", header=T)
 
 # 1819
 avg1819_t <- avg1819[avg1819$Transfer==1,]
@@ -45,3 +46,14 @@ mean(avg1819_nt$dt.WR.)
 mean(ratio1819_nt$dt.WR.)
 mean(ratio1819_t$dt.WR.)
 
+########### KDA ############
+# 181920
+var.test(avg181920_t$dt.KDA., avg181920_nt$dt.KDA.)
+
+t.test(avg181920_t$dt.KDA., avg181920_nt$dt.KDA., var.equal=T)
+
+########### KPAR ############
+# 181920
+var.test(avg181920_t$dt.KPAR., avg181920_nt$dt.KPAR.)
+
+t.test(avg181920_t$dt.KPAR., avg181920_nt$dt.KPAR., var.equal=T)
